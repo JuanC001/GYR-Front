@@ -1,8 +1,24 @@
-:root{
-    --color-primary: #2e00fc;
-    --color-secondary: #ff0000;
+:root {
+    --color-primary: rgb(244, 121, 32);
+    --color-primary-light: rgb(255, 144, 0);
+    --color-primary-dark: rgb(204, 102, 0);
+
+    --color-secondary: rgb(0,133,188);
+    --color-secondary-light: rgb(0, 153, 209);
+    --color-secondary-dark: rgb(0, 113, 159);
+
+    --color-tertiary: #F4F4F4;
+    --color-tertiary-light: #FFFFFF;
+    --color-tertiary-dark: #D8D8D8;
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    
+    margin: 0;
+    padding: 0;
 }
 
-body{
+body {
     margin: 0;
+    padding: 0;
 }

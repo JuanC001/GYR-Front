@@ -1,13 +1,71 @@
-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background-color: var(--color-secondary);
+.home-main{
+    height: 500vh;
 }
 
-h1 {
-    color: var(--color-primary);
-    font-size: 2rem;
+.hero-container{
+    height: 100vh;
+    background-color: #CDB0A0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+}
+/*Add gradiant to the text add border to text
+*/
+.hero-tittle{
+    color: rgb(255, 255, 255);
+    font-size: 8rem;
+    width: 1000px;
+    font-weight: 700;
+    text-align: left;
+    bottom: 40%;
+    left: 15%;
+    position: absolute;
+    z-index: 8;
+}
+
+.hero-front{
+
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-size: cover;
+    position: absolute;
+    background-image: url(/src/assets/hero/Layer_5.png);
+    z-index: 10;
+    
+}
+
+.hero-front2{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-size: cover;
+    position: absolute;
+    background-image: url(/src/assets/hero/Layer_4.png);
+    z-index: 9;
+}
+
+.hero-back{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-size: cover;
+    position: absolute;
+    background-image: url(/src/assets/hero/Layer_3.png);
+    z-index: 7;
+}
+
+.hero-back2{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-size: cover;
+    position: absolute;
+    background-image: url(/src/assets/hero/Layer_2.png);
+    z-index: 6;
 }

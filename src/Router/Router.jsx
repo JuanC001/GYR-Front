@@ -6,7 +6,7 @@ import { Contact } from '../Pages/Contact/Contact'
 import { Home } from '../Pages/Home/Home'
 import { Privacy } from '../Pages/Privacy/Privacy'
 import { Footer } from '../components/Footer'
-import { NavBar } from '../components/NavBar'
+import { NavBar } from '../components/NavBar/NavBar'
 
 export const Router = () => {
     return (
