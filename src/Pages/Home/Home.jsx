@@ -5,7 +5,7 @@ import { motion, useScroll, useTransform } from 'framer-motion'
 import FrontLayer from '../../assets/hero/Front-Layer.webp'
 import BackLayer from '../../assets/hero/Back-Layer.webp'
 
-import { useRef } from 'react'
+import { Suspense, useRef } from 'react'
 
 export const Home = () => {
 
@@ -26,18 +26,20 @@ export const Home = () => {
         <motion.h1 style={{ y: translation_text }} initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { delay: 0.5 } }} className='hero-tittle'>
           Gestión y Resultados
         </motion.h1>
-
-        <motion.img className='hero-front'
-          initial={{ opacity: 0, y: 100 }}
-          animate={{ opacity: 1, y: 0, transition: { delay: 0, bounce: false } }}
-          src={FrontLayer} alt='Layer_5'
-          style={{ y: translation_front }} />
-        <motion.img className='hero-back'
-          initial={{ opacity: 0, y: 100 }}
-          animate={{ opacity: 1, y: 0, transition: { delay: 0.2, bounce: false } }}
-          src={BackLayer} alt='Layer_1'
-          style={{ y: translation_back }} />
-
+        <Suspense fallback={<div>Loading...</div>}>
+          <motion.img className='hero-front'
+            initial={{ opacity: 0, y: 100 }}
+            animate={{ opacity: 1, y: 0, transition: { delay: 0, bounce: false } }}
+            src={FrontLayer} alt='Layer_5'
+            style={{ y: translation_front }}
+            loading='lazy' />
+          <motion.img className='hero-back'
+            initial={{ opacity: 0, y: 100 }}
+            animate={{ opacity: 1, y: 0, transition: { delay: 0.2, bounce: false } }}
+            src={BackLayer} alt='Layer_1'
+            style={{ y: translation_back }}
+            loading='lazy' />
+        </Suspense>
       </div>
     </main>
   )
