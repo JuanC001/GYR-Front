@@ -2,11 +2,8 @@ import './Home.css'
 import { motion, useScroll, useTransform } from 'framer-motion'
 /* import images */
 
-import Layer_5 from '../../assets/hero/Layer_5.png'
-import Layer_4 from '../../assets/hero/Layer_4.png'
-import Layer_3 from '../../assets/hero/Layer_3.png'
-import Layer_2 from '../../assets/hero/Layer_2.png'
-import Layer_1 from '../../assets/hero/Layer_1.png'
+import FrontLayer from '../../assets/hero/Front-Layer.webp'
+import BackLayer from '../../assets/hero/Back-Layer.webp'
 
 import { useRef } from 'react'
 
@@ -27,15 +24,19 @@ export const Home = () => {
 
       <div ref={ref} className="hero-container">
         <motion.h1 style={{ y: translation_text }} initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { delay: 0.5 } }} className='hero-tittle'>
-          Gestion y Resultados
+          Gestión y Resultados
         </motion.h1>
 
-        <motion.img src={Layer_5} initial={{ opacity: 0, y: 100 }} animate={{ opacity: 1, y: 0 }} style={{ y: translation_front }} className='hero-front' />
-        <motion.div src={Layer_4} style={{ y: translation_front }} className='hero-front2' />
-        <motion.div style={{ y: translation_back }} className='hero-back' />
-        <motion.div style={{ y: translation_back }} className='hero-back2' />
-
-
+        <motion.img className='hero-front'
+          initial={{ opacity: 0, y: 100 }}
+          animate={{ opacity: 1, y: 0, transition: { delay: 0, bounce: false } }}
+          src={FrontLayer} alt='Layer_5'
+          style={{ y: translation_front }} />
+        <motion.img className='hero-back'
+          initial={{ opacity: 0, y: 100 }}
+          animate={{ opacity: 1, y: 0, transition: { delay: 0.2, bounce: false } }}
+          src={BackLayer} alt='Layer_1'
+          style={{ y: translation_back }} />
 
       </div>
     </main>

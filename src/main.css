@@ -3,7 +3,7 @@
     --color-primary-light: rgb(255, 144, 0);
     --color-primary-dark: rgb(204, 102, 0);
 
-    --color-secondary: rgb(0,133,188);
+    --color-secondary: rgb(0, 133, 188);
     --color-secondary-light: rgb(0, 153, 209);
     --color-secondary-dark: rgb(0, 113, 159);
 
@@ -13,9 +13,29 @@
 
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
-    
+
     margin: 0;
     padding: 0;
+
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    position: absolute;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(45deg, var(--color-primary), var(--color-secondary));
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--color-primary-light);
+}
+
+::-webkit-scrollbar-track {
+    background-color: #CDB0A0;
+
 }
 
 body {
