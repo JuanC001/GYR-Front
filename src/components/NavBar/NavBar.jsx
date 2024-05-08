@@ -40,13 +40,13 @@ export const NavBar = () => {
               <Link to='/nosotros'>Nosotros</Link>
             </li>
             <li className='list-item'>
+              <Link to='/experiencia'>Experiencia</Link>
+            </li>
+            <li className='list-item'>
               <Link to='/servicios'>Servicios</Link>
             </li>
             <li className='list-item'>
               <Link to='/contacto'>Contacto</Link>
-            </li>
-            <li className='list-item'>
-              <Link to='/politica-privacidad'>Política de privacidad</Link>
             </li>
           </div>
           <li className='list-button-mobile'>

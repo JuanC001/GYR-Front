@@ -17,17 +17,35 @@
 /*Add gradiant to the text add border to text
 */
 .hero-tittle {
-    font-size: 8rem;
-    width: 1000px;
-    font-weight: 700;
+    font-size: 6vw;
+    width: 100%;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
     text-align: left;
-    bottom: 40%;
-    left: 15%;
+    bottom: 55%;
     position: absolute;
     z-index: 8;
-    background: linear-gradient(45deg, var(--color-primary) 0%, var(--color-primary) 40%, var(--color-secondary) 30%, var(--color-secondary) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    left: 10%;
+
+    text-shadow: 2px 4px 2px rgba(0,0,0,0.6);
+    color: #fff;
+
+}
+
+.hero-tittle2 {
+    font-size: 6vw;
+    width: 100%;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    bottom: 45%;
+    position: absolute;
+    z-index: 8;
+    left: 15%;
+
+    text-shadow: 2px 4px 2px rgba(0,0,0,0.6);
+    color: #fff;
+
 }
 
 .hero-front {
@@ -39,7 +57,7 @@
     position: absolute;
     z-index: 10;
     top: 15%;
-
+    
 }
 
 .hero-back {
@@ -50,4 +68,17 @@
     position: absolute;
     z-index: 7;
     top: 15%;
+}
+
+.intro-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+    box-shadow: 1px -1px 10px 1px rgb(0, 0, 0);
+    background: radial-gradient(circle, var(--color-primary) 0%, var(--color-secondary) 100%);
 }
