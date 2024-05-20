@@ -6,7 +6,9 @@ import FrontLayer from '../../assets/hero/Front-Layer.webp'
 import BackLayer from '../../assets/hero/Back-Layer.webp'
 import BackGround from '../../assets/hero/background.png'
 
-import { Suspense, useRef, useState } from 'react'
+import ColGreen from '../../assets/images/colombia_verde.jpg'
+
+import { useRef, useState } from 'react'
 
 export const Home = () => {
 
@@ -22,7 +24,6 @@ export const Home = () => {
   const translation_text = useTransform(scrollYProgress, [0, 1], ["0%", "400%"]);
   const translation_back = useTransform(scrollYProgress, [0, 1], ["0%", "40%"]);
   const translation_front = useTransform(scrollYProgress, [0, 1], ["0%", "30%"]);
-  const translation_intro = useTransform(scrollYProgress, [0, 1], ["0%", "30%"]);
 
 
   return (
@@ -49,14 +50,31 @@ export const Home = () => {
           style={{ y: translation_back }}
           loading='lazy'
           onLoad={() => setBackLoaded(true)} />
-
       </section>
-      <motion.section style={{}} className="intro-container">
-        <h2 className='intro-tittle'>¿Quiénes somos?</h2>
-        <p className='intro-text'>
-          Somos una empresa de consultoría en gestión de proyectos y procesos, especializada en la implementación de metodologías ágiles y en la gestión de proyectos de tecnología.
-        </p>
-      </motion.section>
+
+      <section className="intro-container">
+        <motion.img initial={{ opacity: 0, y: 200 }} whileInView={{ opacity: 1, y: 0, transition: { delay: 0.4 } }} viewport={{ once: true }} className='image-container' src={ColGreen} alt='background' />
+        <motion.div initial={{ opacity: 0, y: 200 }} whileInView={{ opacity: 1, y: 0, transition: { delay: 0.6 } }} viewport={{ once: true }} className='intro-content'>
+          <h1>Descúbrenos</h1>
+          <p>
+            Gestión y Resultados S.A.S. es una empresa dedicada a asesorar proyectos en servicios públicos domiciliarios, con más de 19 años de
+            experiencia, en más de 160 proyectos a nivel nacional e internacional, con un
+            equipo profesional interdisciplinario que cuenta con más de 20 años de
+            experiencia.
+          </p>
+          <div className='align-left'>
+            <button>Conócenos {'>>'}</button>
+          </div>
+        </motion.div>
+      </section>
+
+      <section className="banner">
+        <div className="banner-cover">
+          <p>
+            Asesorías integrales en proyectos de servicios públicos y soluciones ambientales
+          </p>
+        </div>
+      </section>
     </main>
   )
 }
