@@ -1,162 +1,32 @@
 .home-main {
-    height: 500vh;
+    min-height: 500vh;
 }
 
-.hero-container {
-    height: 110vh;
-    background-color: #CDB0A0;
+.banner {
+    width: 100%;
+    height: 30vh;
+
+    background-position: 0%;
+    background-size: cover;
+
+}
+
+.banner-cover {
+    width: 100%;
+    height: 100%;
     display: flex;
+
+    background-color: var(--color-secondary-dark);
+    opacity: 0.8;
+
     justify-content: center;
     align-items: center;
-    background-size: cover;
-    position: relative;
-    overflow: hidden;
-    z-index: 0;
-}
-
-/*Add gradiant to the text add border to text
-*/
-.hero-tittle {
-    font-size: 6vw;
-    width: 100%;
-    font-weight: 600;
-    font-family: 'Montserrat', sans-serif;
-    text-align: left;
-    bottom: 55%;
-    position: absolute;
-    z-index: 8;
-    left: 10%;
-
-    text-shadow: 2px 4px 2px rgba(0, 0, 0, 0.6);
-    color: var(--color-primary);
-
-}
-
-.hero-tittle2 {
-    font-size: 6vw;
-    width: 100%;
-    font-weight: 600;
-    font-family: 'Montserrat', sans-serif;
-    text-align: left;
-    bottom: 45%;
-    position: absolute;
-    z-index: 8;
-    left: 15%;
-
-    text-shadow: 2px 4px 2px rgba(0, 0, 0, 0.6);
-    color: var(--color-secondary);
-
-}
-
-.hero-front {
-
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    background-size: cover;
-    position: absolute;
-    z-index: 10;
-    top: 15%;
-
-}
-
-.hero-back {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    background-size: cover;
-    position: absolute;
-    z-index: 7;
-    top: 15%;
-}
-
-.intro-container {
-    min-height: 50vh;
-    position: relative;
-    z-index: 0;
-    box-shadow: 1px -10px 10px 1px rgba(0, 0, 0, 0.527);
-
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    place-content: center;
-    place-items: center;
-    padding: 20px;
-
-}
-
-.intro-container img{
-    width: 50%;
-    height: 100%;
-    object-fit: contain;
-    z-index: 1;
-    top: 0;
-    left: 0;
-}
-
-.intro-content{
-    padding: 0 5%;
-    max-width: 500px;
-}
-
-.intro-content h1{
-    font-size: 3rem;
-    font-weight: 600;
-    font-family: 'Montserrat', sans-serif;
-    text-align: left;
-    color: var(--color-primary);
-}
-
-.intro-content p{
-    font-size: 1.5rem;
-    font-weight: 500;
-    font-family: 'Montserrat', sans-serif;
-    text-align: justify;
-    color: var(--color-secondary-dark);
-}
-
-.intro-container::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 10px;
-    background: linear-gradient(45deg, var(--color-primary) 50%, var(--color-secondary) 50%);
-}
-
-.align-left{
-    display: flex;
-    width: 100%;
-    text-align: left;
-    justify-content: end;
-    align-items: center;
-}
-
-.banner{
-    min-height: 20vh;
-    background-image: url('/src/assets/hero_background.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.banner-cover{
-
-    background: rgba(0, 80, 112, 0.904);
-    padding: 20px;
-    border-radius: 10px;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .banner-cover p{
+    opacity: 1;
+    color: white;
     font-size: 2rem;
     font-weight: 600;
-    font-family: 'Montserrat', sans-serif;
-    color: var(--color-tertiary-light);
-    width: 600px;
     text-align: center;
 }

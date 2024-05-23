@@ -1,141 +1,134 @@
 nav {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgba(255, 255, 255, 0);
-    color: black;
-    font-size: 1.2rem;
-    min-height: 60px;
-    padding: 0;
-    padding-left: 10px;
-    padding-right: 10px;
-    z-index: 1000;
-    position: fixed;
+    height: 100px;
     width: 100%;
-    transition: all 0.5s ease;
-    top: 0;
-}
 
+    justify-content: center;
+
+    position: fixed;
+    z-index: 100;
+
+    background-color: transparent;
+    color: white;
+    overflow-x: hidden;
+
+    transition: background-color 0.5s;
+
+}
+/*When the nav bar is on top, the background of the navbar will change and adding a box-shadow*/
 .on-top{
-    background-color: var(--color-tertiary);
-    transition: all 0.5s ease;
-    box-shadow: 0px 5px 5px rgba(116, 116, 116, 0.295);
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+    
 }
 
 ul {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 10px 0px 10px 0px;
-    width: 100%;
-}
-
-.list {
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    margin: 0;
     padding: 0;
-    width: 100%;
-}
-
-a {
-    color: black;
+    width: 90%;
     text-decoration: none;
+    list-style-type: none;
+    display: flex;
 }
 
 .logo {
+    height: 90%;
+    width: 20%;
+}
+
+.list {
+    width: 80%;
     display: flex;
+    gap: 10px;
     align-items: center;
-    flex-grow: 1;
-    height: 80px;
+    justify-content: flex-end;
 }
 
-img {
-    width: auto;
-    height: 60px;
-}
-
-
-.list-item {
-
-    margin: auto;
-    margin-left: 5px;
-    margin-right: 5px;
-    transition: all 0.5s ease;
-    padding: 5px;
-
-}
-
-.list-item:hover {
-    background-color: rgba(0, 0, 0, 0.1);
+.list-item{
+    font-size: 1.2rem;
+    font-weight: 400;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 8px;
     border-radius: 5px;
-    transform: translate(0px, -5px);
+
+    transition: all 0.5s;
 }
 
-.list-mobile {
+.list-item a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.list-item:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.2);
+    scale: 1.02;
+}
+
+.list-mobile-button {
     display: none;
 }
 
-.list-button-mobile {
+.mobile-modal{
     display: none;
 }
 
-@media screen and (max-width: 768px) {
-
-    nav {
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        z-index: 1000;
-        transition: all 1s ease;
-    }
-
-    .list-mobile {
-        display: flex;
-        list-style: none;
-        margin: 0;
-        padding: 10px 0px 10px 0px;
-        width: 100%;
-        flex-direction: column;
-        transform-origin: 0%;
-    }
-
-    .background-open {
-        background-color: rgba(0, 0, 0, 0.863);
-        font-size: 1.2rem;
-        padding: 0;
-        transition: all 1s ease;
-        position: absolute;
-        height: 100%;
-        width: 100%;
-    }
-
-    .list-button-mobile {
-        display: flex;
-        padding: 5px;
-    }
-
+@media (width < 750px){
     .list {
         display: none;
     }
 
-    .logo {
-        flex-grow: 1;
-        padding: 5px;
+    .list-mobile-button{
+        display: flex;
+        width: 100%;
+        justify-content: end;
     }
 
-    .list-button-mobile button {
-        background-color: white;
-        border: none;
-        color: black;
-        font-size: 1.2rem;
-        cursor: pointer;
+    .button-mobile {
+        display: flex;
+        background-color: transparent;
+
+        height: 100%;
+        max-width: 15%;
+
     }
 
-    .list-button-mobile button img {
-        width: 50px;
-        height: 50px;
+    .button-mobile img{
+        height: 100%;
+        width: 100%;
+    }
+
+    .mobile-modal{
+        display: block;
+        position: fixed;
+        height: 100vh;
+        width: 50%;
+        background-color: rgb(255, 255, 255);
+
+        margin: 0;
+        z-index: 110;
+
+        right: 0;
+
+    }
+
+    .mobile-background{
+        position: fixed;
+        display: block;
+        height: 100vh;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 109;
+    }
+
+    .mobile-list{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+
+        text-align: right;
     }
 
 }

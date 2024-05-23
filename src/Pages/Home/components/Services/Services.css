@@ -1,0 +1,112 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 0 20px;
+}
+
+.container h2{
+    color: var(--color-primary);
+    font-size: 2.5vw;
+    font-weight: 600;
+    text-align: center;
+}
+
+.container div:first-child {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.hover-menu {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hover-menu hr {
+    width: 90%;
+    border: 1px solid var(--color-primary);
+}
+
+.hover-item {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-secondary);
+    transition: 0.3s;
+    cursor: default;
+}
+
+.hover-item:hover {
+    background: var(--color-primary-light);
+    color: white;
+    transition: 0.3s;
+}
+
+hr {
+    width: 100%;
+    border: 1px solid var(--color-primary);
+}
+
+.hover-reactive {
+    height: 400px;
+    background-image: url(/src/assets/images/plantas_deco.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hover-content {
+
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(5px);
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.hover-content-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+@media (width < 641px) {
+    .hover-menu {
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        justify-content: center;
+        align-items: center;
+        font-size: 2.5vw;
+    }
+
+    .hover-item{
+        font-size: 2.5vw;
+        font-weight: 900;
+        border-radius: 10px;
+        border: 1px solid var(--color-primary);
+        padding: 0 2px;
+    }
+
+    .hover-menu hr {
+        display: none;
+    }
+}
