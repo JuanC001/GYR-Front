@@ -1,0 +1,102 @@
+.container-success {
+    width: 100%;
+    min-height: 50vh;
+    background-color: bisque;
+}
+
+.header-success {
+    margin: auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    place-items: center;
+}
+
+.header-success h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: left;
+    margin: 1rem;
+    color: var(--color-primary);
+    width: 300px;
+}
+
+.header-success h2 span {
+    font-weight: 700;
+}
+
+.header-success p {
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: left;
+    margin: 1rem;
+    color: var(--color-secondary);
+}
+
+.content-success {
+    margin: auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    place-items: center;
+}
+
+.content-success img {
+    width: auto;
+    width: 500px;
+}
+
+.content-success .accordeon {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.accordeon-item {
+
+    width: 80%;
+    transition: all 0.3s ease;
+    overflow: hidden;
+    position: relative;
+    height: 200px;
+
+}
+
+.accordeon-tittle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 0;
+    padding: 0 10px;
+    color: var(--color-secondary-dark);
+}
+
+.accordeon-tittle h3 {
+    margin: 0;
+}
+
+
+
+.accordeon-tittle:hover {
+    color: gray;
+}
+
+.accordeon-content {
+    padding: 0 10px;
+    font-weight: 400;
+}
+
+.accordeon-content::after {
+    content: "";
+    display: block;
+    position: absolute;
+    clear: both;
+    height: 50%;
+    width: 5px;
+    background-color: var(--color-primary);
+    left: 0px;
+    top: 40px;
+}
