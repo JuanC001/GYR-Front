@@ -81,7 +81,7 @@ const ServicesMenoItem = ({ number, service, setHoverContent }) => {
             <motion.div
                 className="hover-item"
                 onHoverStart={() => setHoverContent(number)}
-                
+                onClick={() => setHoverContent(number)}
             >
                 <h3>{service.text}</h3>
             </motion.div>
