@@ -99,6 +99,10 @@ ul {
         width: 100%;
     }
 
+    .button-mobile:hover{
+        background-color: transparent;
+    }
+
     .mobile-modal{
         display: block;
         position: fixed;
@@ -110,6 +114,7 @@ ul {
         z-index: 110;
 
         right: 0;
+        transform-origin: 100%;
 
     }
 

@@ -4,7 +4,8 @@ import './Hero.css'
 import { motion, useScroll, useTransform } from 'framer-motion'
 
 import FrontLayer from '../../../../assets/hero/Front-Layer.webp'
-import BackLayer from '../../../../assets/hero/Back-Layer.webp'
+//import BackLayer from '../../../../assets/hero/Back-Layer.webp'
+import BackLayer from '../../../../assets/hero/background.webp'
 
 export const Hero = () => {
 
@@ -37,14 +38,14 @@ export const Hero = () => {
                     backgroundClip: 'text',
                     WebkitBackgroundClip: 'text',
                 }}
-                animate={frontLoaded && backLoaded &&
-                {
-                    opacity: 1,
-                    background: 'linear-gradient(35deg, var(--color-primary) 50%, var(--color-secondary) 50%)',
-                    backgroundClip: 'text',
-                    WebkitBackgroundClip: 'text',
-                    transition: { delay: 1, duration: 2 }
-                }}
+                animate={
+                    {
+                        opacity: 1,
+                        background: 'linear-gradient(35deg, var(--color-primary) 50%, var(--color-secondary) 50%)',
+                        backgroundClip: 'text',
+                        WebkitBackgroundClip: 'text',
+                        transition: { delay: 1, duration: 2 }
+                    }}
 
             >
                 GESTIÓN Y RESULTADOS
