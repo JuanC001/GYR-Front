@@ -4,9 +4,15 @@ import { Link } from 'react-router-dom'
 import { useEffect, useState } from 'react'
 import { Logo } from '../Logo/Logo'
 
+import {motion} from 'framer-motion'
+
 export const NavBar = () => {
 
   const [showMobileMenu, setShowMobileMenu] = useState(false)
+
+  const handleClose = () => {
+    setShowMobileMenu(false)
+  }
 
   useEffect(() => {
 
@@ -25,8 +31,8 @@ export const NavBar = () => {
 
   return (
     <>
-      {showMobileMenu && <div className="mobile-background" onClick={() => setShowMobileMenu(false)}></div>}
-      {showMobileMenu && <MobileNavBar />}
+      {showMobileMenu && <div className="mobile-background" onClick={handleClose}></div>}
+      {showMobileMenu && <MobileNavBar handleClose={handleClose} />}
       <nav>
         <ul>
           <li className='logo'>
@@ -63,26 +69,26 @@ export const NavBar = () => {
   )
 }
 
-const MobileNavBar = () => {
+const MobileNavBar = ({handleClose}) => {
   return (
-    <div className="mobile-modal">
+    <motion.div initial={{scaleX: 0}} animate={{scaleX: 1}} className="mobile-modal">
       <ul className='mobile-list'>
         <li className='list-item'>
-          <Link to='/'>Inicio</Link>
+          <Link onClick={handleClose} to='/'>Inicio</Link>
         </li>
         <li className='list-item'>
-          <Link to='/nosotros'>Nosotros</Link>
+          <Link onClick={handleClose} to='/nosotros'>Nosotros</Link>
         </li>
         <li className='list-item'>
-          <Link to='/servicios'>Servicios</Link>
+          <Link onClick={handleClose} to='/servicios'>Servicios</Link>
         </li>
         <li className='list-item'>
-          <Link to='/contacto'>Contacto</Link>
+          <Link onClick={handleClose} to='/contacto'>Contacto</Link>
         </li>
         <li className='list-item'>
-          <Link to='/politica-privacidad'>Política de privacidad</Link>
+          <Link onClick={handleClose} to='/politica-privacidad'>Política de privacidad</Link>
         </li>
       </ul>
-    </div>
+    </motion.div>
   )
 }

@@ -1,6 +1,6 @@
 .hero-container {
     height: 110vh;
-    background-color: #CDB0A0;
+    background-color: #E2B8A2;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,18 +51,18 @@
     background-size: cover;
     position: absolute;
     z-index: 10;
-    top: 15%;
+    top: 10%;
 
 }
 
 .hero-back {
     width: 100%;
     height: 100%;
+    top: 10%;
     object-fit: cover;
     background-size: cover;
     position: absolute;
     z-index: 7;
-    top: 15%;
 }
 
 .mobile-title {
@@ -80,7 +80,7 @@
     }
 
     .hero-container {
-        background-image: url(/src/assets/hero/background.png);
+        background-image: url(/src/assets/hero/background.webp);
         display: flex;
         justify-content: center;
         height: 100vh;
