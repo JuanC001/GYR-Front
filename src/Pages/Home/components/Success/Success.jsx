@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 import './Success.css'
 
-import SuccessImage from '../../../../assets/images/success_image.jpg'
+import SuccessImage from '../../../../assets/home/images/success_image.png'
 import { forwardRef, useImperativeHandle, useRef, useState } from 'react'
 
 const pilaresExito = [

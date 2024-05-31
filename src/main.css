@@ -11,6 +11,9 @@
     --color-tertiary-light: #FFFFFF;
     --color-tertiary-dark: #D8D8D8;
 
+    --color-primary-banner: rgba(82, 116, 153, 0.9);
+    --color-secondary-banner: rgb(244, 121, 32);
+
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
 
