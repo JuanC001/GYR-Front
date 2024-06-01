@@ -41,8 +41,8 @@ export const Home = () => {
 const Banner = ({ text, image }) => {
   return (
     <motion.div className='banner' style={{ backgroundImage: `url(${image})` }}>
-      <motion.div initial={{ y: '100%' }} whileInView={{ y: 0, transition: {delay: 0.5} }} viewport={{ once: true }} className="banner-cover">
-        <motion.p initial={{ y: '200%' }} whileInView={{ y: 0, transition: {delay: 0.5} }} viewport={{ once: true }}>{text}</motion.p>
+      <motion.div initial={{ y: '100%', opacity: 0 }} whileInView={{ y: 0, opacity: 1, transition: { delay: 0.5, bounce: false } }} viewport={{ once: true }} className="banner-cover">
+        <p>{text}</p>
       </motion.div>
     </motion.div>
   )
