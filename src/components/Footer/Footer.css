@@ -1,0 +1,122 @@
+.footer-container {
+    min-height: 20vh;
+    position: relative;
+    padding-top: 20px;
+}
+
+
+
+.footer-content {
+    position: relative;
+    z-index: 101;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.svg-decoration {
+    position: absolute;
+    top: -2.5vw;
+    z-index: 100;
+    width: 100%;
+    object-fit: cover;
+}
+
+.s0 {
+    fill: #ffffff;
+    stroke: url(#g1);
+    stroke-miterlimit: 10;
+    stroke-width: 6
+}
+
+.footer-content .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    height: 20vh;
+    width: 100%;
+}
+
+.contact-area {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 20px;
+}
+
+.contact-tittle {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--color-primary-light);
+    margin: 0;
+    padding: 0;
+}
+
+.contact-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-item {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+/** Copy Button */
+
+.copy-button {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 30px;
+    width: 30px;
+    padding: 2px;
+    position: relative;
+}
+
+.copy-button-label {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--color-secondary-dark);
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: -150%;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/**Footer Caption */
+.footer-caption {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 300;
+    font-style: italic;
+    color: white;
+    height: 30px;
+    margin: 0;
+    background-color: var(--color-primary);
+    position: relative;
+    z-index: 150;
+}

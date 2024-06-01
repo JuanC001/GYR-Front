@@ -5,7 +5,7 @@ import { Services } from '../Pages/Services/Services'
 import { Contact } from '../Pages/Contact/Contact'
 import { Home } from '../Pages/Home/Home'
 import { Privacy } from '../Pages/Privacy/Privacy'
-import { Footer } from '../components/Footer'
+import { Footer } from '../components/Footer/Footer'
 import { NavBar } from '../components/NavBar/NavBar'
 
 export const Router = () => {

@@ -40,17 +40,17 @@ export const Services = () => {
         <div className='container'>
             <motion.div>
                 <h2 className=''>Nuestros servicios</h2>
-                <motion.div className='hover-menu' onHoverEnd={() => setHoverContent(0)}>
+                <div className='hover-menu'>
 
                     <ServicesMenoItem number={1} service={ServicesJSON[1]} setHoverContent={setHoverContent} />
                     <ServicesMenoItem number={2} service={ServicesJSON[2]} setHoverContent={setHoverContent} />
                     <ServicesMenoItem number={3} service={ServicesJSON[3]} setHoverContent={setHoverContent} />
                     <ServicesMenoItem number={4} service={ServicesJSON[4]} setHoverContent={setHoverContent} />
 
-                </motion.div>
+                </div>
 
             </motion.div>
-            <div className="hover-reactive">
+            <motion.div initial={{ opacity: 0, x: 400 }} whileInView={{ x: 0, opacity: 1, transition: { delay: 0.5, duration: 1 } }} viewport={{once: true}} className="hover-reactive">
                 <div className="hover-content">
                     <AnimatePresence mode='wait'>
                         {hoverContent === 0 && <ServicesContentInfo service={ServicesJSON[0]} />}
@@ -61,14 +61,14 @@ export const Services = () => {
                     </AnimatePresence>
                 </div>
 
-            </div>
+            </motion.div>
         </div>
     )
 }
 
 const ServicesContentInfo = ({ service }) => {
     return (
-        <motion.div className="hover-content-info" key={service.id} initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
+        <motion.div className="hover-content-info" key={service.id} initial={{ opacity: 0, y: 200 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -200 }}>
             <h3>{service.text}</h3>
             <p>{service.description}</p>
         </motion.div>
@@ -77,16 +77,18 @@ const ServicesContentInfo = ({ service }) => {
 
 const ServicesMenoItem = ({ number, service, setHoverContent }) => {
     return (
-        <>
-            <motion.div
-                className="hover-item"
-                onHoverStart={() => setHoverContent(number)}
-                onClick={() => setHoverContent(number)}
-            >
-                <h3>{service.text}</h3>
-            </motion.div>
-            <hr />
-        </>
+
+        <motion.div
+            className="hover-item"
+            initial={{ opacity: 0, x: -200 }}
+            whileInView={{ opacity: 1, x: 0, transition: { bounce: false, duration: 0.5 } }}
+            viewport={{ once: true }}
+            onMouseEnter={() => setHoverContent(number)}
+            onMouseLeave={() => setHoverContent(0)}
+        >
+            <h3 >{service.text}</h3>
+        </motion.div>
+
     )
 }
 

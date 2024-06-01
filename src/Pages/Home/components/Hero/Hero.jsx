@@ -3,9 +3,9 @@ import { useRef, useState } from 'react'
 import './Hero.css'
 import { motion, useScroll, useTransform } from 'framer-motion'
 
-import FrontLayer from '../../../../assets/hero/Front-Layer.webp'
+import FrontLayer from '../../../../assets/home/hero/Front-Layer.webp'
 //import BackLayer from '../../../../assets/hero/Back-Layer.webp'
-import BackLayer from '../../../../assets/hero/background.webp'
+import BackLayer from '../../../../assets/home/hero/background.webp'
 
 export const Hero = () => {
 

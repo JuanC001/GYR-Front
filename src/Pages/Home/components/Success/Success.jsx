@@ -1,8 +1,8 @@
 import { motion } from 'framer-motion'
 import './Success.css'
 
-import SuccessImage from '../../../../assets/images/success_image.jpg'
-import { forwardRef, useImperativeHandle, useRef, useState } from 'react'
+import SuccessImage from '../../../../assets/home/images/success_image.png'
+import React, { forwardRef, useImperativeHandle, useRef, useState } from 'react'
 
 const pilaresExito = [
   {
@@ -44,10 +44,14 @@ const pilaresExito = [
 
 export const Success = () => {
 
-  const ref1 = useRef()
+  const itemsRefs = useRef(pilaresExito.map(() => React.createRef()))
 
-  const handleClose = () => {
-    ref1.current.close()
+  const handleClose = (index) => {
+    itemsRefs.current.forEach((item, i) => {
+      if (item.current && i !== index) {
+        item.current.close()
+      }
+    })
   }
 
 
@@ -65,11 +69,16 @@ export const Success = () => {
 
       <div className="content-success">
         <div className="accordeon">
-          {pilaresExito.map(pilar => (
-            <AccordeonItem key={pilar.id} title={pilar.title} content={pilar.content} open={false} closeAll={handleClose} ref={ref1} />
+          {pilaresExito.map((pilar, index) => (
+            <AccordeonItem
+              key={index}
+              ref={itemsRefs.current[index]}
+              title={pilar.title} content={pilar.content}
+              id={index} open={index === 0}
+              handleClose={handleClose} />
           ))}
         </div>
-        <img src={SuccessImage} alt="Success" />
+        <motion.img initial={{ opacity: 0, x: 200 }} whileInView={{ x: 0, opacity: 1 }}  transition={{duration: 1, delay: 0.5, bounce: false}} viewport={{once: true}} src={SuccessImage} alt="Success" />
       </div>
 
     </div>
@@ -77,21 +86,22 @@ export const Success = () => {
 }
 
 // eslint-disable-next-line react/display-name
-const AccordeonItem = forwardRef((props, ref) => {
-  const { title, content, open, closeAll } = props
+const AccordeonItem = forwardRef(({ title, content, open, handleClose, index }, ref) => {
+
+  const [isOpen, setIsOpen] = useState(open)
+  const handleOpen = () => {
+    handleClose(index)
+    setIsOpen(true)
+  }
 
   useImperativeHandle(ref, () => ({
     close: () => setIsOpen(false),
   }))
 
-  const [isOpen, setIsOpen] = useState(open)
-  const handleOpen = () => {
-    closeAll()
-    setIsOpen(!isOpen)
-  }
+
 
   return (
-    <motion.div layout style={{ height: isOpen ? "150px" : "50px" }} className='accordeon-item'>
+    <motion.div layout initial={{ opacity: 0, scale: 0 }} whileInView={{ opacity: 1, scale: 1, transition: { duration: 0.2 } }} viewport={{ once: true, margin: "-10%" }} style={{ height: isOpen ? "150px" : "50px" }} className='accordeon-item'>
       <div className="accordeon-tittle" >
         <h3 onClick={handleOpen}>{title}</h3>
       </div>

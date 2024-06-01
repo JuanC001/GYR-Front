@@ -6,6 +6,9 @@ import { Hero } from './components/Hero/Hero'
 import { Intro } from './components/Introduction/Intro'
 
 import Banner1 from '../../assets/images/gallery/imagen_1.jpg'
+import { Experience } from './components/Experience/Experience'
+
+import { motion } from 'framer-motion'
 
 export const Home = () => {
 
@@ -28,16 +31,19 @@ export const Home = () => {
       <section>
         <Success />
       </section>
+      <section>
+        <Experience />
+      </section>
     </main>
   )
 }
 
 const Banner = ({ text, image }) => {
   return (
-    <div className='banner' style={{ backgroundImage: `url(${image})` }}>
-      <div className="banner-cover">
+    <motion.div className='banner' style={{ backgroundImage: `url(${image})` }}>
+      <motion.div initial={{ y: '100%', opacity: 0 }} whileInView={{ y: 0, opacity: 1, transition: { delay: 0.5, bounce: false } }} viewport={{ once: true }} className="banner-cover">
         <p>{text}</p>
-      </div>
-    </div>
+      </motion.div>
+    </motion.div>
   )
 }

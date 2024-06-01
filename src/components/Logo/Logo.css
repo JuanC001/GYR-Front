@@ -4,39 +4,14 @@
 }
 
 .s1 {
-    fill: transparent;
+    fill: var(--color-secondary);
     stroke: var(--color-secondary);
     stroke-width: 5px;
-    animation: fillingAnimationS1 2s forwards;
-    animation-delay: 0.2s;
-}
-
-@keyframes fillingAnimationS1 {
-    0% {
-        fill: transparent;
-    }
-
-    100% {
-        fill: var(--color-secondary);
-    }
-
 }
 
 .s2 {
-    fill: transparent;
+    fill: var(--color-primary);
     stroke: var(--color-primary);
     stroke-width: 5px;
     stroke-miterlimit: 10;
-    animation: fillingAnimationS2 1s forwards;
-}
-
-@keyframes fillingAnimationS2 {
-    0% {
-        fill: transparent;
-    }
-
-    100% {
-        fill: var(--color-primary);
-    }
-
 }
