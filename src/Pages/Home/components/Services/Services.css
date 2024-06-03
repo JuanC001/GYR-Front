@@ -9,6 +9,7 @@
     margin-top: 2%;
     margin-bottom: 2%;
     padding: 0 20px;
+    overflow-x: hidden;
 }
 
 .container h2 {
