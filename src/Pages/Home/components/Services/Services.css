@@ -1,4 +1,4 @@
-.container {
+.services-container {
     display: grid;
     grid-template-columns: 1fr 2fr;
     justify-content: center;
@@ -12,7 +12,7 @@
     overflow-x: hidden;
 }
 
-.container h2 {
+.services-container h2 {
     color: var(--color-primary);
     font-size: 2.5vw;
     font-weight: 600;
@@ -82,8 +82,15 @@ hr {
 
 @media (width < 641px) {
 
-    .container {
+    .services-container {
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+
+    .services-container h2 {
+        color: var(--color-primary);
+        font-size: 5.5vw;
+        font-weight: 600;
+        text-align: center;
     }
 
     .hover-menu {

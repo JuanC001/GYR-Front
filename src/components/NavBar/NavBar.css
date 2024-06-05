@@ -111,7 +111,7 @@ ul {
         background-color: rgb(255, 255, 255);
 
         margin: 0;
-        z-index: 110;
+        z-index: 1000;
 
         right: 0;
         transform-origin: 100%;
