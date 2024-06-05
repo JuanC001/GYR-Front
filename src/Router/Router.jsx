@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
 
 import { About } from '../Pages/About/About'
 import { Services } from '../Pages/Services/Services'
@@ -18,6 +18,7 @@ export const Router = () => {
                 <Route path='/contacto' element={<Contact />} />
                 <Route path='/servicios' element={<Services />} />
                 <Route path='/politica-privacidad' element={<Privacy />} />
+                <Route path='/*' element={<Navigate to={'/'} />} />
 
             </Routes>
             <Footer />

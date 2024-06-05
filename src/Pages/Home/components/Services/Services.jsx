@@ -37,20 +37,20 @@ export const Services = () => {
     const [hoverContent, setHoverContent] = useState(0)
 
     return (
-        <div className='container'>
-            <motion.div>
+        <div className='services-container'>
+            <div>
                 <h2 className=''>Nuestros servicios</h2>
-                <div className='hover-menu'>
+                <motion.div initial={{ opacity: 0, y: 200 }} whileInView={{ y: 0, opacity: 1 }} viewport={{once: true}} className='hover-menu'>
 
-                    <ServicesMenoItem number={1} service={ServicesJSON[1]} setHoverContent={setHoverContent} />
-                    <ServicesMenoItem number={2} service={ServicesJSON[2]} setHoverContent={setHoverContent} />
-                    <ServicesMenoItem number={3} service={ServicesJSON[3]} setHoverContent={setHoverContent} />
-                    <ServicesMenoItem number={4} service={ServicesJSON[4]} setHoverContent={setHoverContent} />
+                    <ServicesMenuItem number={1} service={ServicesJSON[1]} setHoverContent={setHoverContent} />
+                    <ServicesMenuItem number={2} service={ServicesJSON[2]} setHoverContent={setHoverContent} />
+                    <ServicesMenuItem number={3} service={ServicesJSON[3]} setHoverContent={setHoverContent} />
+                    <ServicesMenuItem number={4} service={ServicesJSON[4]} setHoverContent={setHoverContent} />
 
-                </div>
+                </motion.div>
 
-            </motion.div>
-            <motion.div initial={{ opacity: 0, x: 400 }} whileInView={{ x: 0, opacity: 1, transition: { delay: 0.5, duration: 1 } }} viewport={{once: true}} className="hover-reactive">
+            </div>
+            <motion.div initial={{ opacity: 0, x: 400 }} whileInView={{ x: 0, opacity: 1, transition: { delay: 0.5, duration: 1 } }} viewport={{ once: true }} className="hover-reactive">
                 <div className="hover-content">
                     <AnimatePresence mode='wait'>
                         {hoverContent === 0 && <ServicesContentInfo service={ServicesJSON[0]} />}
@@ -75,19 +75,19 @@ const ServicesContentInfo = ({ service }) => {
     )
 }
 
-const ServicesMenoItem = ({ number, service, setHoverContent }) => {
+const ServicesMenuItem = ({ number, service, setHoverContent }) => {
     return (
 
-        <motion.div
+        <div
             className="hover-item"
-            initial={{ opacity: 0, x: -200 }}
-            whileInView={{ opacity: 1, x: 0, transition: { bounce: false, duration: 0.5 } }}
-            viewport={{ once: true }}
+
             onMouseEnter={() => setHoverContent(number)}
             onMouseLeave={() => setHoverContent(0)}
         >
-            <h3 >{service.text}</h3>
-        </motion.div>
+            <h3>
+                {service.text}
+            </h3>
+        </div>
 
     )
 }

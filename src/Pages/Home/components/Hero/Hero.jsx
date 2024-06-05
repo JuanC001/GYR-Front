@@ -10,7 +10,6 @@ import BackLayer from '../../../../assets/home/hero/background.webp'
 export const Hero = () => {
 
     const [frontLoaded, setFrontLoaded] = useState(false);
-    const [backLoaded, setBackLoaded] = useState(false);
 
     const ref = useRef(null);
     const { scrollYProgress } = useScroll({
@@ -19,15 +18,14 @@ export const Hero = () => {
     });
 
     const translation_text = useTransform(scrollYProgress, [0, 1], ["0%", "400%"]);
-    const translation_back = useTransform(scrollYProgress, [0, 1], ["0%", "40%"]);
-    const translation_front = useTransform(scrollYProgress, [0, 1], ["0%", "30%"]);
+    const translation_front = useTransform(scrollYProgress, [0, 1], ["0%", "-10%"]);
 
     return (
         <div ref={ref} className="hero-container">
-            <motion.h1 style={{ y: translation_text }} initial={{ opacity: 0 }} animate={frontLoaded && backLoaded && { opacity: 1, transition: { delay: 0.5 } }} className='hero-tittle'>
+            <motion.h1 style={{ y: translation_text }} initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { delay: 0.5 } }} className='hero-tittle'>
                 GESTIÓN Y
             </motion.h1>
-            <motion.h1 style={{ y: translation_text }} initial={{ opacity: 0 }} animate={frontLoaded && backLoaded && { opacity: 1, transition: { delay: 0.5 } }} className='hero-tittle2'>
+            <motion.h1 style={{ y: translation_text }} initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { delay: 0.5 } }} className='hero-tittle2'>
                 RESULTADOS
             </motion.h1>
             <motion.h1 className='mobile-title'
@@ -57,13 +55,19 @@ export const Hero = () => {
                 style={{ y: translation_front }}
                 loading='lazy'
                 onLoad={() => setFrontLoaded(true)} />
-            <motion.img className='hero-back'
+
+        </div>
+    )
+}
+
+/* 
+
+<motion.img className='hero-back'
                 initial={{ opacity: 0, y: 100 }}
                 animate={backLoaded && { opacity: 1, y: 0, transition: { delay: 0.2, bounce: false } }}
                 src={BackLayer} alt='Layer_1'
                 style={{ y: translation_back }}
                 loading='lazy'
                 onLoad={() => setBackLoaded(true)} />
-        </div>
-    )
-}
+
+*/
