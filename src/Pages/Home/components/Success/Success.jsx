@@ -68,7 +68,7 @@ export const Success = () => {
       </div>
 
       <div className="content-success">
-        <div className="accordeon">
+        <motion.div layout className="accordeon">
           {pilaresExito.map((pilar, index) => (
             <AccordeonItem
               key={index}
@@ -77,8 +77,8 @@ export const Success = () => {
               id={index} open={index === 0}
               handleClose={handleClose} />
           ))}
-        </div>
-        <motion.img initial={{ opacity: 0, x: 200 }} whileInView={{ x: 0, opacity: 1 }}  transition={{duration: 1, delay: 0.5, bounce: false}} viewport={{once: true}} src={SuccessImage} alt="Success" />
+        </motion.div>
+        <motion.img src={SuccessImage} alt="Success" />
       </div>
 
     </div>
@@ -101,13 +101,14 @@ const AccordeonItem = forwardRef(({ title, content, open, handleClose, index }, 
 
 
   return (
-    <motion.div layout initial={{ opacity: 0, scale: 0 }} whileInView={{ opacity: 1, scale: 1, transition: { duration: 0.2 } }} viewport={{ once: true, margin: "-10%" }} style={{ height: isOpen ? "150px" : "50px" }} className='accordeon-item'>
-      <div className="accordeon-tittle" >
+    <motion.div className='accordeon-item' >
+      <div className="accordeon-tittle" onClick={handleOpen}>
         <h3 onClick={handleOpen}>{title}</h3>
       </div>
-
-      <motion.div layout className='accordeon-content'>
-        <p>{content}</p>
+      <motion.div layout>
+        {isOpen && <motion.div initial={{ opacity: 0, scaleY: 0, transformOrigin: 0 }} animate={{ opacity: 1, scaleY: 1 }} className='accordeon-content'>
+          <p>{content}</p>
+        </motion.div>}
       </motion.div>
 
     </motion.div>

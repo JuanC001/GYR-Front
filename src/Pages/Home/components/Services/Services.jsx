@@ -40,7 +40,7 @@ export const Services = () => {
         <div className='services-container'>
             <div>
                 <h2 className=''>Nuestros servicios</h2>
-                <motion.div initial={{ opacity: 0, y: 200 }} whileInView={{ y: 0, opacity: 1 }} viewport={{once: true}} className='hover-menu'>
+                <motion.div initial={{ opacity: 0, y: 200 }} whileInView={{ y: 0, opacity: 1 }} viewport={{ once: true }} className='hover-menu'>
 
                     <ServicesMenuItem number={1} service={ServicesJSON[1]} setHoverContent={setHoverContent} />
                     <ServicesMenuItem number={2} service={ServicesJSON[2]} setHoverContent={setHoverContent} />
@@ -50,7 +50,7 @@ export const Services = () => {
                 </motion.div>
 
             </div>
-            <motion.div initial={{ opacity: 0, x: 400 }} whileInView={{ x: 0, opacity: 1, transition: { delay: 0.5, duration: 1 } }} viewport={{ once: true }} className="hover-reactive">
+            <div className="hover-reactive">
                 <div className="hover-content">
                     <AnimatePresence mode='wait'>
                         {hoverContent === 0 && <ServicesContentInfo service={ServicesJSON[0]} />}
@@ -61,7 +61,7 @@ export const Services = () => {
                     </AnimatePresence>
                 </div>
 
-            </motion.div>
+            </div>
         </div>
     )
 }
