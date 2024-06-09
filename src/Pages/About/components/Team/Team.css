@@ -1,0 +1,29 @@
+.team-container {
+
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding: 5%;
+
+    background-image: url('/src/assets/about/images/team.jpg');
+    background-size: cover;
+    background-position: center;
+
+}
+
+.team-container h2{
+
+    font-size: 3rem;
+    color: var(--color-primary);
+    text-align: center;
+
+}
+
+.team-container p {
+
+    max-width: 50%;
+    font-size: 1.5rem;
+    color: var(--color-secondary-dark);
+
+}

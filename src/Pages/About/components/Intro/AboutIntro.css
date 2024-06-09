@@ -1,0 +1,56 @@
+.about-intro-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-intro-content h2 {
+    font-size: 3rem;
+    color: var(--color-primary);
+}
+
+.about-intro-content {
+    color: black;
+    width: 80%;
+    font-size: 1.5rem;
+}
+
+.about-intro {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    place-content: center;
+    position: relative;
+}
+
+.decoration-about-container {
+    position: absolute;
+    overflow-x: hidden;
+    width: 100%;
+    top: -15vw;
+}
+
+.decoration-about-container img {
+    width: 120%;
+    height: 100%;
+    object-fit: cover;
+    margin-left: -10%;
+}
+
+.about-intro-container {
+    display: flex;
+    flex-direction: column;
+    z-index: 11;
+    padding: 20px;
+}
+
+.bubble-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: -10px;
+    width: 400px;
+    margin: auto;
+    color: white;
+}
