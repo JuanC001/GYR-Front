@@ -50,11 +50,37 @@
 
 }
 
-.mision-content h2{
+.mision-content h2 {
     color: white;
 }
 
-.mision-content p{
+.mision-content p {
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+}
+
+@media (max-width: 1400px) {
+
+
+
+}
+
+@media (max-width: 768px) {
+
+    .mision-container {
+        position: relative;
+    }
+
+    .mision-element {
+        position: absolute;
+    }
+
+    .mision-content {
+        position: static;
+    }
+
+    .mision-content p {
+        color: white;
+        font-size: 1.2rem;
+    }
 }
