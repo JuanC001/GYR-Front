@@ -1,0 +1,60 @@
+.vision-container {
+
+    margin-top: 20px !important;
+
+    width: 90vw;
+    min-height: 50vh;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+}
+
+.vision-element-img {
+    padding: 20px 30% 20px 10%;
+
+}
+
+.vision-element-img img {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    object-position: 0px 0px;
+
+    border-radius: 20px;
+    z-index: 0;
+
+}
+
+.vision-element {
+    position: relative;
+}
+
+.vision-content {
+
+    background-color: var(--color-primary-dark);
+
+    position: absolute;
+    max-width: 800px;
+    min-height: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    right: -15%;
+    margin: auto;
+
+    z-index: 1;
+
+    text-align: justify;
+
+}
+
+.vision-content h2 {
+    color: white;
+}
+
+.vision-content p {
+    color: white;
+    font-size: 1.5rem;
+}

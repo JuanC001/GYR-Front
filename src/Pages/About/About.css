@@ -22,50 +22,11 @@ main {
     text-shadow: 2px 5px 4px rgb(0, 0, 0);
     position: absolute;
     left: 20%;
-
     width: 200px;
 }
 
 .about-container h1 span {
     margin-left: 150px;
-}
-
-.about-intro {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-    place-content: center;
-    position: relative;
-}
-
-.decoration-about-container{
-    position: absolute;
-    overflow-x: hidden;
-    width: 100%;
-    top: -15vw;
-}
-
-.decoration-about-container img {
-    width: 120%;
-    height: 100%;
-    object-fit: cover;
-    margin-left: -10%;
-}
-
-.about-intro-container{
-    display: flex;
-    flex-direction: column;
-
-    z-index: 11;
-    padding: 20px;
-}
-
-.bubble-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: -10px;
 }
 
 @media (width < 768px) {

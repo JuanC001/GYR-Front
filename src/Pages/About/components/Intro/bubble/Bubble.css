@@ -1,0 +1,49 @@
+.bubble {
+    position: relative;
+    width: 200px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.left {
+    align-self: start;
+}
+
+.right {
+    align-self: end;
+}
+
+.bubble-draw {
+    position: absolute;
+    z-index: 0;
+}
+
+.bubble-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    gap: 0;
+    z-index: 2;
+    position: relative;
+    width: 100%;
+}
+
+.bubble-content h3 {
+    font-size: 2rem;
+    font-weight: 800;
+    margin: 0;
+    padding: 0;
+}
+
+.bubble-content p {
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
