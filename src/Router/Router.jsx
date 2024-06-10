@@ -1,4 +1,4 @@
-import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
+import { Navigate, Route, Routes, useLocation } from 'react-router-dom'
 
 import { About } from '../Pages/About/About'
 import { Services } from '../Pages/Services/Services'
@@ -7,10 +7,24 @@ import { Home } from '../Pages/Home/Home'
 import { Privacy } from '../Pages/Privacy/Privacy'
 import { Footer } from '../components/Footer/Footer'
 import { NavBar } from '../components/NavBar/NavBar'
+import { useEffect } from 'react'
+
+import { useScroll } from '../hooks/useScroll'
 
 export const Router = () => {
+
+    const location = useLocation()
+    const { scrollToTop } = useScroll()
+
+    useEffect(
+        () => {
+            scrollToTop()
+        },
+        [location.pathname]
+    )
+
     return (
-        <BrowserRouter>
+        <>
             <NavBar />
             <Routes>
                 <Route path='/' element={<Home />} />
@@ -22,7 +36,6 @@ export const Router = () => {
 
             </Routes>
             <Footer />
-
-        </BrowserRouter>
+        </>
     )
 }

@@ -7,7 +7,6 @@ import { Intro } from './components/Introduction/Intro'
 
 import Banner1 from '../../assets/images/gallery/imagen_1.jpg'
 import { Experience } from './components/Experience/Experience'
-
 import { motion } from 'framer-motion'
 
 export const Home = () => {
