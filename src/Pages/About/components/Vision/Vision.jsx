@@ -30,6 +30,7 @@ export const Vision = () => {
           </h2>
           <p>
             En Gestión y Resultados S.A.S, aspiramos a ser una empresa líder en la ejecución y desarrollo de proyectos en servicios públicos y proyectos ambientales, siendo reconocidos a nivel nacional e internacional por la calidad, responsabilidad y confiabilidad de nuestros servicios.
+            Ser una empresa líder en la ejecución y desarrollo de proyectos en servicios públicos y proyectos ambientales, siendo reconocidos a nivel nacional e internacional por la calidad, responsabilidad y confiabilidad de nuestros servicios.
           </p>
         </motion.div>
       </div>
