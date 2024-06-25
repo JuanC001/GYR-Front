@@ -18,8 +18,8 @@ export const AboutIntro = () => {
                     <p>
                         En Gestión y Resultados S.A.S, nos especializamos en la asesoría
                         de proyectos en servicios públicos domiciliarios. Con más de 19 años
-                        de experiancia y participación en mas de 160 proyectos tanto a nivel nacional
-                        como ineternacional, nuestro equipo profesional interdisiplinario, con más de 20 años de
+                        de experiencia y participación en más de 160 proyectos tanto a nivel nacional
+                        como internacional, nuestro equipo profesional interdisiplinario, con más de 20 años de
                         trayectoria, está comprometido con brindar soluciones efectivas y eficientes a nuestros clientes.
                     </p>
                 </div>

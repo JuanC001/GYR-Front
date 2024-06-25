@@ -37,7 +37,7 @@ const pilaresExito = [
   {
     id: 5,
     title: 'Lealtad',
-    content: 'Somos fieles a nuestros principios, colaboradores y clientes, manteniendo un compromiso duradero'
+    content: 'Somos fieles a nuestros principios, colaboradores y clientes, manteniendo un compromiso duradero.'
   }
 
 ]
@@ -61,7 +61,7 @@ export const Success = () => {
       <div className="header-success">
         <h2>Los Pilares de <span>Nuestro Éxito</span></h2>
         <p>
-          En Gestión y Resultados hay un equipo apasionado y dedicador, alineado con valores y ética de trabajo. Estas son guías fundamentales que dan forma a nuestra cultura y nos ayudan a enfrentar desafíos juntos.
+          En Gestión y Resultados hay un equipo apasionado y dedicado, alineado con valores y ética de trabajo. Estas son guías fundamentales que dan forma a nuestra cultura y nos ayudan a enfrentar desafíos juntos.
         </p>
       </div>
 

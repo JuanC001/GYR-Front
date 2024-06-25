@@ -33,7 +33,7 @@ export const Mision = () => {
                     <p>
                         En Gestión y Resultados S.A.S, nos dedicamos a desarrollar asesorías integrales en proyectos de servicios públicos, proyectos ambientales, auditorías e interventorías para entidades gubernamentales, empresas de servicios públicos del sector privado y banca multilateral.
                         <br />
-                        Con una alta capacidad profesional y un conocimiento específico de la normatividad y la regulación, brindamos servicios de calidad y eficiencia. Estamos comprometidos con el bienestar y la salud de nuestros trabajadores, asegurando que cada proyectos se realice con el máximo estándar de excelencia y responsabilidad.
+                        Con una alta capacidad profesional y un conocimiento específico de la normatividad y la regulación, brindamos servicios de calidad y eficiencia. Estamos comprometidos con el bienestar y la salud de nuestros trabajadores, asegurando que cada proyecto se realice con el máximo estándar de excelencia y responsabilidad.
                     </p>
                 </motion.div>
             </div>

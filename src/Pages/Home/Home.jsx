@@ -22,7 +22,7 @@ export const Home = () => {
         <Intro />
       </section>
 
-      <Banner text={'Asesorias Integrales en proyectos de servicios públicos y soluciones ambientales'} image={Banner1} />
+      <Banner text={'Asesorías Integrales en proyectos de servicios públicos y soluciones ambientales'} image={Banner1} />
 
       <section>
         <Services />
@@ -40,7 +40,7 @@ export const Home = () => {
 const Banner = ({ text, image }) => {
   return (
     <motion.div className='banner' style={{ backgroundImage: `url(${image})` }}>
-      <motion.div initial={{ y: '100%', opacity: 0 }} whileInView={{ y: 0, opacity: 1, transition: { delay: 0.5, bounce: false } }} viewport={{ once: true }} className="banner-cover">
+      <motion.div initial={{ y: '0', opacity: 1 }} whileInView={{ y: 0, opacity: 1, transition: { delay: 0.5, bounce: false } }} viewport={{ once: true }} className="banner-cover">
         <p>{text}</p>
       </motion.div>
     </motion.div>
