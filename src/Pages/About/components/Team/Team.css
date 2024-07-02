@@ -12,27 +12,6 @@
 
 }
 
-.team-container h2{
-
-    font-size: 3rem;
-    color: var(--color-primary);
-    text-align: center;
-    margin: 0px 0px 10px 0px;
-
-}
-
-.team-container p {
-
-    max-width: 50%;
-    font-size: 1.2rem;
-    color: var(--color-secondary-dark);
-    margin: 1px;
-
-}
-
 @media (max-width: 768px) {
-    .team-container p{
-         max-width: 100%;
-         font-size: 1rem;
-    }
+
 }

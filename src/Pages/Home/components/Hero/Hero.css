@@ -13,7 +13,7 @@
 
 .hero-tittle {
     font-size: 6vw;
-    width: 100%;
+    max-width: 900px;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
     text-align: left;
@@ -21,26 +21,14 @@
     position: absolute;
     z-index: 8;
     left: 10%;
-
     text-shadow: 2px 4px 2px rgba(0, 0, 0, 0.6);
     color: var(--color-primary);
 
 }
 
-.hero-tittle2 {
-    font-size: 6vw;
-    width: 100%;
-    font-weight: 600;
-    font-family: 'Montserrat', sans-serif;
-    text-align: left;
-    bottom: 45%;
-    position: absolute;
-    z-index: 8;
-    left: 15%;
-
-    text-shadow: 2px 4px 2px rgba(0, 0, 0, 0.6);
+.hero-tittle span{
     color: var(--color-secondary);
-
+    margin-left: 10%;
 }
 
 .hero-front {
@@ -107,9 +95,6 @@
 
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-
-
-
     }
 
 }

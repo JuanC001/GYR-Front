@@ -56,7 +56,6 @@
 
 .mision-content p {
     color: white;
-    font-size: 1.2rem;
 }
 
 @media (max-width: 768px) {
@@ -75,6 +74,5 @@
 
     .mision-content p {
         color: white;
-        font-size: 1.2rem;
     }
 }

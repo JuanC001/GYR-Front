@@ -33,7 +33,7 @@
     width: 100%;
 }
 
-.bubble-content h3 {
+.bubble-content span {
     font-size: 2rem;
     font-weight: 800;
     margin: 0;

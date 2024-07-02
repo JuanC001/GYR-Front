@@ -8,6 +8,7 @@ import { Intro } from './components/Introduction/Intro'
 import Banner1 from '../../assets/images/gallery/imagen_1.jpg'
 import { Experience } from './components/Experience/Experience'
 import { motion } from 'framer-motion'
+import { Customer } from './components/Customers/Customer'
 
 export const Home = () => {
 
@@ -30,6 +31,10 @@ export const Home = () => {
       <section>
         <Success />
       </section>
+      <section>
+        <Customer />
+      </section>
+
       <section>
         <Experience />
       </section>

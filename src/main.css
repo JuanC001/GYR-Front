@@ -1,3 +1,7 @@
+html{
+    font-size: 16px;
+}
+
 :root {
     --color-primary: rgb(244, 121, 32);
     --color-primary-light: rgb(255, 144, 0);
@@ -19,6 +23,7 @@
 
     margin: 0;
     padding: 0;
+    font-size: 18px;
     
 }
 
@@ -52,4 +57,64 @@ button:hover {
 
 button:active {
     transform: scale(0.95);
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--color-secondary-dark);
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--color-primary);
+    margin: 1rem;
+    padding: 0;
+    text-align: center;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--color-secondary-dark);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-secondary-dark);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+@media (width < 768px) {
+
+    html{
+        font-size: 20px;
+    }
+    :root{
+        font-size: 20px;
+    }
+
+    h2{
+        font-size: 2.5rem;
+    }
+    
 }
