@@ -2,6 +2,7 @@ import './Services.css'
 import { Consultorias } from './components/Consultorias/Consultorias'
 
 import DecorationSVG from '../../../src/assets/about/images/decoration.svg'
+import { ConsultoriasSectorSalud } from './components/ConsultoriasSectorSalud/ConsultoriasSectorSalud'
 
 export const Services = () => {
   return (
@@ -30,7 +31,28 @@ export const Services = () => {
       </section>
 
       <section className="services-section">
-        
+        <h2>
+          Consultorías del Sector Salud
+        </h2>
+        <ConsultoriasSectorSalud />
+      </section>
+
+      <section className="services-section">
+        <h2>
+          Auditorías Externas de Gestión y Resultados
+        </h2>
+      </section>
+
+      <section className="services-section">
+        <h2>
+          Servicios Ambientales
+        </h2>
+      </section>
+
+      <section className="services-section">
+        <h2>
+          Interventorías
+        </h2>
       </section>
 
     </div>
