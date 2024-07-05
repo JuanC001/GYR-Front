@@ -3,6 +3,7 @@ import { Consultorias } from './components/Consultorias/Consultorias'
 
 import DecorationSVG from '../../../src/assets/about/images/decoration.svg'
 import { ConsultoriasSectorSalud } from './components/ConsultoriasSectorSalud/ConsultoriasSectorSalud'
+import { ServiciosAmbientales } from './components/ServiciosAmbientales/ServiciosAmbientales'
 
 export const Services = () => {
   return (
@@ -47,6 +48,7 @@ export const Services = () => {
         <h2>
           Servicios Ambientales
         </h2>
+        <ServiciosAmbientales />
       </section>
 
       <section className="services-section">

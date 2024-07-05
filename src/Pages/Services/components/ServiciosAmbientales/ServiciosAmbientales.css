@@ -1,0 +1,46 @@
+.sa_image__container {
+
+    max-width: 1500px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    margin: auto;
+    min-height: 60vh;
+    background-image: url('/src/assets/services/serviciosambientales.jpg');
+    background-size: cover;
+    background-position: 0px 70%;
+}
+
+.grid__row__full {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid__row__full h3 {
+    text-align: center;
+}
+
+@media (width < 1300px) {
+    .grid__row__full {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (width < 900px) {
+    .grid__row__full {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+    }
+}

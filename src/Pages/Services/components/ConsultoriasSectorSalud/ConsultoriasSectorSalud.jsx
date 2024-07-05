@@ -17,8 +17,6 @@ const ConsultoryItem = ({ text, id }) => {
 
     const updateModal = () => {
         setOpenContent(!openContent)
-        console.log(`Open modal: ${openContent}`)
-        console.log(id, text)
     }
 
     return (

@@ -6,15 +6,15 @@ import { AnimatePresence, motion } from 'framer-motion'
 export const Consultorias = () => {
     return (
         <div className="image__container">
-            <ConsultoryItem id={1} text={'Control Tarifario'} />
-            <ConsultoryItem id={2} text={'Reporte de Información SUI'} />
-            <ConsultoryItem id={3} text={'Diagnóstico de Viabilidad Empresarial'} />
-            <ConsultoryItem id={4} text={'Estructuración de Esquemas Regionales E Individuales'} />
-            <ConsultoryItem id={5} text={'Modernización Y Fortalecimiento Institucional'} />
-            <ConsultoryItem id={6} text={'Estudios Y Diseños de Ingeniería'} />
-            <ConsultoryItem id={7} text={'Valoración de Activos'} />
-            <ConsultoryItem id={8} text={'Catastro de Usuarios'} />
-            <ConsultoryItem id={9} text={'Capacitaciones'} />
+            <ConsultoryItem id={'c1'} text={'Control Tarifario'} />
+            <ConsultoryItem id={'c2'} text={'Reporte de Información SUI'} />
+            <ConsultoryItem id={'c3'} text={'Diagnóstico de Viabilidad Empresarial'} />
+            <ConsultoryItem id={'c4'} text={'Estructuración de Esquemas Regionales E Individuales'} />
+            <ConsultoryItem id={'c5'} text={'Modernización Y Fortalecimiento Institucional'} />
+            <ConsultoryItem id={'c6'} text={'Estudios Y Diseños de Ingeniería'} />
+            <ConsultoryItem id={'c7'} text={'Valoración de Activos'} />
+            <ConsultoryItem id={'c8'} text={'Catastro de Usuarios'} />
+            <ConsultoryItem id={'c9'} text={'Capacitaciones'} />
         </div>
     )
 }
@@ -25,8 +25,6 @@ const ConsultoryItem = ({ text, id }) => {
 
     const updateModal = () => {
         setOpenContent(!openContent)
-        console.log(`Open modal: ${openContent}`)
-        console.log(id, text)
     }
 
     return (
