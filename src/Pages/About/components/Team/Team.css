@@ -12,6 +12,11 @@
 
 }
 
+.team-container p{
+    max-width: 800px;
+    text-align: end;
+}
+
 @media (max-width: 768px) {
 
 }

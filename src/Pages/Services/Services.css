@@ -5,13 +5,23 @@
     align-items: center;
     position: relative;
 
-    background-image: url('/src/assets/about/images/water_image.webp');
+    background-image: url('/src/assets/services/services_intro.jpg');
     background-size: cover;
 
 }
 
+.services-landing h1 {
+    position: absolute;
+    max-width: 500px;
+    font-size: 5rem;
+    color: white;
+    left: 15%;
+    text-shadow: 10px 10px 12px rgb(0, 0, 0);
+}
+
 .services-landing h1 span {
-    margin-left: 50px;
+    font-size: 5rem;
+    margin-left: 15%;
 }
 
 .services-section {
@@ -44,10 +54,37 @@
     z-index: 1;
 }
 
+.services-intro-container {
+    min-height: 200px;
+    text-align: center;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.services-section{
+    max-width: 1920px;
+    width: 80%;
+    margin: auto;
+}
+
+.services-section h2{
+    text-align: start;
+}
+
 @media (width < 768px) {
 
-    .services-landing {
-        height: 50vh;
-        background-position: center;
+    .services-landing h1 {
+        position: static;
+        text-align: center;
+        margin: auto;
+    }
+
+    .services-landing h1 span {
+        font-size: 5rem;
+        margin-left: 0%;
     }
 }
