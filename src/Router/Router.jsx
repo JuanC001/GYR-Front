@@ -10,6 +10,7 @@ import { NavBar } from '../components/NavBar/NavBar'
 import { useEffect } from 'react'
 
 import { useScroll } from '../hooks/useScroll'
+import { Experience } from '../Pages/Experience/Experience'
 
 export const Router = () => {
 
@@ -32,6 +33,7 @@ export const Router = () => {
                 <Route path='/contacto' element={<Contact />} />
                 <Route path='/servicios' element={<Services />} />
                 <Route path='/politica-privacidad' element={<Privacy />} />
+                <Route path='/experiencia' element={<Experience />} />
                 <Route path='/*' element={<Navigate to={'/'} />} />
 
             </Routes>

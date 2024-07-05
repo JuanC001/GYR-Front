@@ -13,17 +13,14 @@
     gap: 20px;
 }
 
-.header-success h2 {
-    color: var(--color-primary);
-    padding: 0;
-    width: 20vw;
+.header-success h2{
+    font-weight: 500;
+    max-width: 400px;
     margin: auto;
-    font-weight: 600;
-    font-size: 2.5vw;
 }
 
-.header-success h2 span {
-    font-weight: 800;
+.header-success h2 span{
+    font-weight: 700;
 }
 
 .header-success p {
@@ -48,22 +45,39 @@
 
 /* Accordeon*/
 
-.accordeon {
-    color: var(--color-primary);
-}
-
 .accordeon-item {
 
-    width: 50%;
+    width: 400px;
     margin: auto;
-    text-align: center;
+    transform-origin: 0%;
+    text-align: start;
 
-}
-
-.accordeon-item h3 {
-    cursor: pointer;
 }
 
 .accordeon-item p{
-    color: black;
+    margin: 1rem;
+    text-align: start;
+    transform-origin: 0%;
+}
+
+.accordeon-item div h3 {
+    margin: 1rem;
+    cursor: pointer;
+    transition: all 0.4s;
+    text-align: start;
+}
+
+.accordeon-item div h3:hover {
+    scale: 1.1;
+    color: var(--color-primary);
+}
+
+.accordeon-active {
+    scale: 1.1;
+    color: var(--color-primary);
+}
+
+.accordeon-item div h3 {
+    margin: 1rem;
+    cursor: pointer;
 }

@@ -4,11 +4,6 @@
     justify-content: center;
 }
 
-.about-intro-content h2 {
-    font-size: 3rem;
-    color: var(--color-primary);
-}
-
 .about-intro-content {
     color: black;
     width: 80%;

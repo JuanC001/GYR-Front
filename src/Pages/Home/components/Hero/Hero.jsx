@@ -22,12 +22,11 @@ export const Hero = () => {
 
     return (
         <div ref={ref} className="hero-container">
-            <motion.h1 style={{ y: translation_text }} initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { delay: 0.5 } }} className='hero-tittle'>
-                GESTIÓN Y
+            <motion.h1 className='hero-tittle' style={{ y: translation_text }} initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { delay: 0.5 } }} >
+                GESTIÓN Y <span>RESULTADOS</span>
+                
             </motion.h1>
-            <motion.h1 style={{ y: translation_text }} initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { delay: 0.5 } }} className='hero-tittle2'>
-                RESULTADOS
-            </motion.h1>
+
             <motion.h1 className='mobile-title'
 
                 initial={{

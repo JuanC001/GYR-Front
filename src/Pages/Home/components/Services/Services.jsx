@@ -12,22 +12,22 @@ const ServicesJSON = [
     {
         id: 1,
         text: 'Consultoría',
-        description: 'Realizamos las consultorias xyz'
+        description: 'En Gestión y Resultados S.A.S. ofrecemos servicios de consultoría especializada en el sector de servicios públicos domiciliarios, abarcando áreas como control tarifario, reporte de información, diagnóstico empresarial, estructuración de esquemas, modernización institucional, estudios de ingeniería, valoración de activos y capacitación, todo ello con un enfoque en calidad, eficiencia y cumplimiento normativo.'
     },
     {
         id: 2,
-        text: 'Auditoría',
-        description: 'Realizamos las auditorias xyz'
+        text: 'Auditorías Externas',
+        description: 'Realizamos auditorías externas de gestión y resultados de acuerdo con la normatividad vigente para cada uno de los servicios públicos domiciliarios.'
     },
     {
         id: 3,
-        text: 'Interventoría',
-        description: 'Realizamos las interventorias xyz'
+        text: 'Servicios Ambientales',
+        description: 'En Gestión y Resultados S.A.S. ofrecemos servicios ambientales integrales, incluyendo estudios de impacto ambiental, líneas base y planes de contingencia, planes de manejo ambiental, monitoreo ambiental, gestión integral de residuos sólidos, programas de uso eficiente y ahorro de agua, y caracterización de residuos. Nuestro enfoque garantiza la identificación, prevención y mitigación de impactos ambientales, promoviendo la sostenibilidad y el cumplimiento normativo en cada proyecto.'
     },
     {
         id: 4,
-        text: 'Proyectos',
-        description: 'Realizamos los proyectos xyz'
+        text: 'Interventorías',
+        description: 'Ejecutamos interventorías en proyectos de servicios públicos domiciliarios, a su operación y obras de infraestructura.'
     }
 
 ]
@@ -39,7 +39,7 @@ export const Services = () => {
     return (
         <div className='services-container'>
             <div>
-                <h2 className=''>Nuestros servicios</h2>
+                <h2>Nuestros servicios</h2>
                 <motion.div initial={{ opacity: 0, y: 200 }} whileInView={{ y: 0, opacity: 1 }} viewport={{ once: true }} className='hover-menu'>
 
                     <ServicesMenuItem number={1} service={ServicesJSON[1]} setHoverContent={setHoverContent} />
@@ -69,7 +69,7 @@ export const Services = () => {
 const ServicesContentInfo = ({ service }) => {
     return (
         <motion.div className="hover-content-info" key={service.id} initial={{ opacity: 0, y: 200 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -200 }}>
-            <h3>{service.text}</h3>
+            <h4>{service.text}</h4>
             <p>{service.description}</p>
         </motion.div>
     )
@@ -84,9 +84,9 @@ const ServicesMenuItem = ({ number, service, setHoverContent }) => {
             onMouseEnter={() => setHoverContent(number)}
             onMouseLeave={() => setHoverContent(0)}
         >
-            <h3>
+            <h4>
                 {service.text}
-            </h3>
+            </h4>
         </div>
 
     )

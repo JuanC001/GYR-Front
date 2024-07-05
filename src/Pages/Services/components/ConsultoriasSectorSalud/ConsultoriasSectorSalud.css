@@ -1,0 +1,13 @@
+.ss_image__container {
+
+    max-width: 1500px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    margin: auto;
+    min-height: 30vh;
+    background-image: url('/src/assets/services/consultoriasSS.jpg');
+    background-size: cover;
+    background-position: 10px ;
+    background-attachment: fixed;
+
+}

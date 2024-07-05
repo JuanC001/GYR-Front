@@ -13,7 +13,7 @@ export const Bubble = ({ title, subtittle, cx, cy, r, left, delay }) => {
 
             </motion.svg>
             <div className='bubble-content'>
-                <h3>{title}</h3>
+                <span>{title}</span>
                 <p>{subtittle}</p>
             </div>
         </div>

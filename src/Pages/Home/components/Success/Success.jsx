@@ -99,15 +99,12 @@ const AccordeonItem = forwardRef(({ title, content, open, handleClose, index }, 
 
 
   return (
-    <motion.div className='accordeon-item' >
-      <div className="accordeon-tittle" onClick={handleOpen}>
-        <h3 onClick={handleOpen}>{title}</h3>
+    <motion.div className='accordeon-item'>
+      <div onClick={handleOpen}>
+        <h3 onClick={handleOpen} className={isOpen ? 'accordeon-active' : ''}>{title}</h3>
       </div>
-      <motion.div layout>
-        {isOpen && <motion.div initial={{ opacity: 0, scaleY: 0, transformOrigin: 0 }} animate={{ opacity: 1, scaleY: 1 }} className='accordeon-content'>
-          <p>{content}</p>
-        </motion.div>}
-      </motion.div>
+
+      {isOpen && <motion.p initial={{ scaleY: 0 }} animate={{ scaleY: 1 }} exit={{ scaleY: 0 }}>{content}</motion.p>}
 
     </motion.div>
   )
