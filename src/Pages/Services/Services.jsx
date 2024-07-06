@@ -4,6 +4,7 @@ import { Consultorias } from './components/Consultorias/Consultorias'
 import DecorationSVG from '../../../src/assets/about/images/decoration.svg'
 import { ConsultoriasSectorSalud } from './components/ConsultoriasSectorSalud/ConsultoriasSectorSalud'
 import { ServiciosAmbientales } from './components/ServiciosAmbientales/ServiciosAmbientales'
+import { Auditorias } from './components/AuditoriasEGR/Auditorias'
 
 export const Services = () => {
   return (
@@ -42,6 +43,7 @@ export const Services = () => {
         <h2>
           Auditorías Externas de Gestión y Resultados
         </h2>
+        <Auditorias />
       </section>
 
       <section className="services-section">

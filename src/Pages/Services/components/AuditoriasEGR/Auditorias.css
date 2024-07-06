@@ -1,0 +1,18 @@
+.auditorias-container {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.auditorias-container ul {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.auditorias-container li {
+    list-style: none;
+    margin-left: 2rem;
+    color: var(--color-secondary-dark);
+}
