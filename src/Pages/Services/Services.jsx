@@ -6,6 +6,8 @@ import { ConsultoriasSectorSalud } from './components/ConsultoriasSectorSalud/Co
 import { ServiciosAmbientales } from './components/ServiciosAmbientales/ServiciosAmbientales'
 import { Auditorias } from './components/AuditoriasEGR/Auditorias'
 
+import ImagenInterventorias from '../../../src/assets/services/interventorias.jpg'
+
 export const Services = () => {
   return (
     <div>
@@ -53,10 +55,18 @@ export const Services = () => {
         <ServiciosAmbientales />
       </section>
 
-      <section className="services-section">
-        <h2>
-          Interventorías
-        </h2>
+      <section className="services-section-interventorias">
+        <div>
+          <h2>
+            Interventorías
+          </h2>
+          <p>
+            Ejecutamos interventorías en proyectos de servicios públicos domiciliarios, a su operación y obras de infraestructura
+          </p>
+        </div>
+        <div className="container-interventorias">
+          <img src={ImagenInterventorias} />
+        </div>
       </section>
 
     </div>
