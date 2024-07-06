@@ -1,4 +1,5 @@
 import './Auditorias.css'
+import ImagenAuditorias from '../../../../assets/services/auditorias.jpg'
 
 const textos = {
     lista: [
@@ -40,17 +41,22 @@ const textos = {
 export const Auditorias = () => {
     return (
         <div className='auditorias-container'>
-            <p>
-                {textos.texto1}
-            </p>
-            <ul>
-                {textos.lista.map(item => (
-                    <li key={item.id}>{item.texto}</li>
-                ))}
-            </ul>
-            <p>
-                {textos.texto2}
-            </p>
+            <div className='auditorias-content'>
+                <p>
+                    {textos.texto1}
+                </p>
+                <ul>
+                    {textos.lista.map(item => (
+                        <li key={item.id}>{item.texto}</li>
+                    ))}
+                </ul>
+                <p>
+                    {textos.texto2}
+                </p>
+            </div>
+            <div className='auditorias-image'>
+                <img src={ImagenAuditorias} />
+            </div>
         </div>
     )
 }
