@@ -1,7 +1,66 @@
-path{
-    transition: all 0.5s;
+.interactive-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    justify-content: center;
 }
-path:hover{
-    fill: aqua;
-    scale: 1.01;
+
+.mapa_gyr {
+    margin: auto;
+}
+
+.mapa_gyr path {
+    fill: var(--color-primary);
+    transition: all 0.5s;
+    z-index: 100;
+}
+
+path:hover {
+    fill: var(--color-secondary);
+}
+
+.group_region{
+    position: relative;
+}
+
+.group_region path{
+    position: absolute;
+    z-index: 99;
+}
+
+
+/* Region Info CARDS*/
+
+.info__container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section_info {
+    height: 300px;
+    background-color: var(--color-secondary-dark);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.section_info h3 {
+    color: white;
+    text-align: start;
+}
+
+.section_content {
+    max-height: 95%;
+    overflow: scroll;
+}
+
+.section_item{
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+    margin-top: 10px;
+
 }

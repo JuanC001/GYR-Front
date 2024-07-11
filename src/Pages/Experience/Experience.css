@@ -1,0 +1,60 @@
+.experience__container {
+    min-height: 50vh;
+}
+
+.experience__container_landing {
+    min-height: 80vh;
+    background-image: url(/src/assets/experience/experiencia.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.experience__container_landing h1 {
+    position: absolute;
+    max-width: 500px;
+    font-size: 5rem;
+    color: white;
+    left: 15%;
+    text-shadow: 10px 10px 12px rgb(0, 0, 0);
+}
+
+.experience__container_landing h1 span {
+    font-size: 5rem;
+    margin-left: 15%;
+}
+
+.experience__description {
+    position: relative;
+    min-height: 20vh;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.experience_description_content {
+    padding-top: 50px;
+    width: 80%;
+    margin: auto;
+}
+
+.experience_description_content h2 {
+    text-align: start;
+    font-weight: 700;
+}
+
+.experience_description_content p {
+    text-align: start;
+    font-weight: 600;
+    color: var(--color-secondary-dark);
+    font-size: 1.3rem;
+}
+
+.experience_description_content p span {
+    color: var(--color-primary);
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+.experience__section {
+    display: grid;
+}

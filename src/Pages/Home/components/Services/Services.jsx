@@ -7,7 +7,7 @@ const ServicesJSON = [
     {
         id: 0,
         text: '¿Que hacemos?',
-        description: 'Somos consultores en el campo de los espacios públicos domiciliarios, estructuración de alternativas empresariales eficientes, proyectos ambientales, auditores externos e interventores de proyectos de consultorias, obras y operación de los servicios públicos domiciliarios'
+        description: 'Somos consultores en el campo de los servicios públicos domiciliarios, estructuración de alternativas empresariales eficientes, proyectos ambientales, auditores externos e interventores de proyectos de consultorias, obras y operación de los servicios públicos domiciliarios'
     },
     {
         id: 1,
