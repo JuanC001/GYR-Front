@@ -1,10 +1,15 @@
 .interactive-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     padding-left: 20px;
     padding-right: 20px;
     align-items: center;
     justify-content: center;
+}
+
+.map__container {
+    max-width: 800px;
+    min-width: 500px;
 }
 
 .mapa_gyr {
@@ -21,11 +26,11 @@ path:hover {
     fill: var(--color-secondary);
 }
 
-.group_region{
+.group_region {
     position: relative;
 }
 
-.group_region path{
+.group_region path {
     position: absolute;
     z-index: 99;
 }
@@ -35,13 +40,14 @@ path:hover {
 
 .info__container {
     height: 100%;
-    display: flex;
-    flex-direction: column;
+    display: grid;
     gap: 20px;
 }
 
 .section_info {
     height: 300px;
+    width: 500px;
+    margin: auto;
     background-color: var(--color-secondary-dark);
     border-radius: 20px;
     padding: 20px;
@@ -54,13 +60,26 @@ path:hover {
 
 .section_content {
     max-height: 95%;
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
-.section_item{
+
+.section_item {
     background-color: white;
     border-radius: 20px;
-    padding: 5px;
+    padding: 20px;
     margin-top: 10px;
+    min-height: 150px;
+}
 
+.section_item h4 {
+    text-align: start;
+}
+
+.section_item caption {
+    width: 100%;
+    display: flex;
+    color: var(--color-primary);
+    font-weight: 500;
 }
