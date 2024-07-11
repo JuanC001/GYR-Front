@@ -1,154 +1,154 @@
 {
-    "Magdalena": [
-      {
-        "tipo": "PDA",
-        "empresa": "Aguas del Magdalena S.A.S. E.S.P.",
-        "fecha_inicio": null,
-        "fecha_finalizacion": "En curso desde 6/12/2017",
-        "descripcion": "Formulación de alternativas técnicas y empresariales para la estructuración de los esquemas regionales de aseo en el departamento del Magdalena."
-      }
-    ],
-    "Cesar": [
-      {
-        "tipo": "PDA",
-        "empresa": "Aguas del Cesar S.A. E.S.P.",
-        "fecha_inicio": "26/07/2018",
-        "fecha_finalizacion": "26/08/2019",
-        "descripcion": "Implementación de la fase ii del plan de aseguramiento de la prestación de los servicios de agua potable y saneamiento básico en siete (7) municipios del PDA-PAP y cinco (5) comunidades indígenas en el departamento del Cesar."
-      },
-      {
-        "tipo": "PDA",
-        "empresa": "Aguas del Cesar S.A. E.S.P.",
-        "fecha_inicio": null,
-        "fecha_finalizacion": "2013",
-        "descripcion": "Estructuración técnica, legal y financiera para la definición de esquemas regionales del servicio de aseo en el departamento de Cesar."
-      },
-      {
-        "tipo": "Catastro de Usuarios",
-        "empresa": "Aguas del Cesar S.A. E.S.P.",
-        "suscriptores": 42554
-      }
-    ],
-    "Bolivar": [
-      {
-        "tipo": "PDA",
-        "empresa": "Aguas de Bolívar SA. ESP",
-        "fecha_inicio": null,
-        "fecha_finalizacion": "2018",
-        "descripcion": "Estructuración técnica, legal, administrativa, comercial y financiera para la conformación e implementación de una empresa regional de aseo y la asistencia técnica en el manejo y operación de una celda de disposición final de residuos sólidos en los municipios de Santa Rosa del Sur, Simití, San Pablo y Cantagallo en el departamento de Bolívar."
-      },
-      {
-        "tipo": "PDA",
-        "empresa": "Aguas de Bolívar SA. ESP",
-        "fecha_inicio": null,
-        "fecha_finalizacion": "2017",
-        "descripcion": "Estructuración para la transformación empresarial y/o fortalecimiento institucional de la prestación de los servicios de acueducto y alcantarillado en los municipios que hacen parte de la estrategia del plan padrino (Norosí), en el marco de la implementación del Plan De Aseguramiento de la prestación de los servicios del PAP-PDA Bolívar."
-      },
-      {
-        "tipo": "PDA",
-        "empresa": "Aguas de Bolívar SA. ESP",
-        "fecha_inicio": null,
-        "fecha_finalizacion": "2015",
-        "descripcion": "Formulación de la regionalización de la prestación del servicio público de aseo en todos o algunos de sus componentes, para 26 municipios del departamento de Bolívar vinculados al PDA."
-      },
-      {
-        "tipo": "PDA",
-        "empresa": "Aguas de Bolívar SA. ESP",
-        "fecha_inicio": null,
-        "fecha_finalizacion": "2014",
-        "descripcion": "Estructuración de un esquema regional para la prestación de los servicios de acueducto y alcantarillado en los municipios de San Jacinto del Cauca, Montecristo, Achi, Pinillos, Tiquisio y Arenal del sur del departamento de Bolívar."
-      },
-      {
-        "tipo": "ESP",
-        "empresa": "Bioger S.A. E.S.P.",
-        "direccion": "Centro empresarial villa esmeralda Calle 27 No 26-335, Turbaco-Cartagena, Turbaco, Bolívar, Colombia",
-        "telefono": "+57 318 8833503",
-        "web": "www.biogersaesp.com"
-      },
-      {
-        "tipo": "Catastro de Usuarios",
-        "empresa": "Aguas de Bolívar SA. ESP",
-        "suscriptores": 37146
-      }
-    ],
-    "Sucre": [
-      {
-        "tipo": "PDA",
-        "empresa": "Aguas de Sucre SA. ESP",
-        "fecha_inicio": null,
-        "fecha_finalizacion": "2017",
-        "descripcion": "Identificación de necesidades de tratamiento de agua potable en centros urbanos y centros poblados principales, de los municipios que comprenden la región de la Mojana, en el departamento de Sucre."
-      },
-      {
-        "tipo": "PDA",
-        "empresa": "Aguas de Sucre SA. ESP",
-        "fecha_inicio": null,
-        "fecha_finalizacion": "2015",
-        "descripcion": "Consultoría para el aseguramiento en la prestación de los servicios públicos de acueducto y alcantarillado, correspondiente a 7 municipios del departamento de Sucre (Caimito, El Roble, Guaranda, La Unión, Majagual, San Benito Abad y Sucre) Grupo 1, en el marco del programa agua para la prosperidad PAP - Plan Departamental de Agua - PDA Sucre."
-      },
-      {
-        "tipo": "PDA",
-        "empresa": "Aguas de Sucre SA. ESP",
-        "fecha_inicio": null,
-        "fecha_finalizacion": "2015",
-        "descripcion": "Consultoría para el aseguramiento en la prestación de los servicios públicos de acueducto y alcantarillado, correspondiente a 10 municipios del departamento de Sucre (Buenavista, Coloso, Chalán, Galeras, Los Palmitos, Morroa, Sampués, Santiago de Tolú, San Antonio de Palmito y Toluviejo) Grupo 2, en el marco del programa agua para la prosperidad PAP - Plan Departamental de Agua - PDA Sucre."
-      },
-      {
-        "tipo": "ESP",
-        "empresa": "SERVIASEO S.A.",
-        "fecha_inicio": "1/06/2012",
-        "fecha_finalizacion": "30/01/2012",
-        "descripcion": "Prestación del servicio de auditoría externa de Gestión y Resultados, de conformidad con lo establecido en el artículo 51 de la ley 142 de 1994. Municipios de San Onofre, Corozal, Chinú y Carmen de Bolívar."
-      },
-      {
-        "tipo": "ESP",
-        "empresa": "SERVIASEO S.A.",
-        "fecha_inicio": "1/02/2011",
-        "fecha_finalizacion": "31/12/2011",
-        "descripcion": "Prestación del servicio de auditoría externa de Gestión y Resultados, de conformidad con lo establecido en el artículo 51 de la ley 142 de 1994. Municipio de San Onofre."
-      },
-      {
-        "tipo": "ESP",
-        "empresa": "SERVIASEO S.A.",
-        "fecha_inicio": "1/01/2011",
-        "fecha_finalizacion": "31/12/2011",
-        "descripcion": "Prestación del servicio de auditoría externa de Gestión y Resultados, de conformidad con lo establecido en el artículo 51 de la ley 142 de 1994. Municipio de Carmen de Bolívar."
-      },
-      {
-        "tipo": "ESP",
-        "empresa": "SERVIASEO S.A.",
-        "fecha_inicio": "1/01/2011",
-        "fecha_finalizacion": "31/12/2011",
-        "descripcion": "Prestación del servicio de auditoría externa de Gestión y Resultados, de conformidad con lo establecido en el artículo 51 de la ley 142 de 1994. Municipio de Corozal."
-      },
-      {
-        "tipo": "ESP",
-        "empresa": "SERVIASEO S.A.",
-        "fecha_inicio": "1/01/2010",
-        "fecha_finalizacion": "31/12/2010",
-        "descripcion": "Prestación del servicio de auditoría externa de Gestión y Resultados, de conformidad con lo establecido en el artículo 51 de la ley 142 de 1994. Municipio de Chinú."
-      },
-      {
-        "tipo": "ESP",
-        "empresa": "SERVIASEO S.A.",
-        "fecha_inicio": "1/01/2010",
-        "fecha_finalizacion": "31/12/2010",
-        "descripcion": "Prestación del servicio de auditoría externa de Gestión y Resultados, de conformidad con lo establecido en el artículo 51 de la ley 142 de 1994. Municipio de Corozal."
-      },
-      {
-        "tipo": "ESP",
-        "empresa": "SERVIASEO S.A.",
-        "fecha_inicio": "1/01/2009",
-        "fecha_finalizacion": "31/12/2009",
-        "descripcion": "Prestación del servicio de auditoría externa de Gestión y Resultados, de conformidad con lo establecido en el artículo 51 de la ley 142 de 1994. Municipio de Corozal."
-      },
-      {
-        "tipo": "Catastro de Usuarios",
-        "empresa": "Aguas de Sucre SA. ESP",
-        "suscriptores": 473
-      }
-    ],
-    "NorteDeSantander": [
+  "Magdalena": [
+    {
+      "tipo": "PDA",
+      "empresa": "Aguas del Magdalena S.A.S. E.S.P.",
+      "fecha_inicio": null,
+      "fecha_finalizacion": "En curso desde 6/12/2017",
+      "descripcion": "Formulación de alternativas técnicas y empresariales para la estructuración de los esquemas regionales de aseo en el departamento del Magdalena."
+    }
+  ],
+  "Cesar": [
+    {
+      "tipo": "PDA",
+      "empresa": "Aguas del Cesar S.A. E.S.P.",
+      "fecha_inicio": "26/07/2018",
+      "fecha_finalizacion": "26/08/2019",
+      "descripcion": "Implementación de la fase ii del plan de aseguramiento de la prestación de los servicios de agua potable y saneamiento básico en siete (7) municipios del PDA-PAP y cinco (5) comunidades indígenas en el departamento del Cesar."
+    },
+    {
+      "tipo": "PDA",
+      "empresa": "Aguas del Cesar S.A. E.S.P.",
+      "fecha_inicio": null,
+      "fecha_finalizacion": "2013",
+      "descripcion": "Estructuración técnica, legal y financiera para la definición de esquemas regionales del servicio de aseo en el departamento de Cesar."
+    },
+    {
+      "tipo": "Catastro de Usuarios",
+      "empresa": "Aguas del Cesar S.A. E.S.P.",
+      "suscriptores": 42554
+    }
+  ],
+  "Bolivar": [
+    {
+      "tipo": "PDA",
+      "empresa": "Aguas de Bolívar SA. ESP",
+      "fecha_inicio": null,
+      "fecha_finalizacion": "2018",
+      "descripcion": "Estructuración técnica, legal, administrativa, comercial y financiera para la conformación e implementación de una empresa regional de aseo y la asistencia técnica en el manejo y operación de una celda de disposición final de residuos sólidos en los municipios de Santa Rosa del Sur, Simití, San Pablo y Cantagallo en el departamento de Bolívar."
+    },
+    {
+      "tipo": "PDA",
+      "empresa": "Aguas de Bolívar SA. ESP",
+      "fecha_inicio": null,
+      "fecha_finalizacion": "2017",
+      "descripcion": "Estructuración para la transformación empresarial y/o fortalecimiento institucional de la prestación de los servicios de acueducto y alcantarillado en los municipios que hacen parte de la estrategia del plan padrino (Norosí), en el marco de la implementación del Plan De Aseguramiento de la prestación de los servicios del PAP-PDA Bolívar."
+    },
+    {
+      "tipo": "PDA",
+      "empresa": "Aguas de Bolívar SA. ESP",
+      "fecha_inicio": null,
+      "fecha_finalizacion": "2015",
+      "descripcion": "Formulación de la regionalización de la prestación del servicio público de aseo en todos o algunos de sus componentes, para 26 municipios del departamento de Bolívar vinculados al PDA."
+    },
+    {
+      "tipo": "PDA",
+      "empresa": "Aguas de Bolívar SA. ESP",
+      "fecha_inicio": null,
+      "fecha_finalizacion": "2014",
+      "descripcion": "Estructuración de un esquema regional para la prestación de los servicios de acueducto y alcantarillado en los municipios de San Jacinto del Cauca, Montecristo, Achi, Pinillos, Tiquisio y Arenal del sur del departamento de Bolívar."
+    },
+    {
+      "tipo": "ESP",
+      "empresa": "Bioger S.A. E.S.P.",
+      "direccion": "Centro empresarial villa esmeralda Calle 27 No 26-335, Turbaco-Cartagena, Turbaco, Bolívar, Colombia",
+      "telefono": "+57 318 8833503",
+      "web": "www.biogersaesp.com"
+    },
+    {
+      "tipo": "Catastro de Usuarios",
+      "empresa": "Aguas de Bolívar SA. ESP",
+      "suscriptores": 37146
+    }
+  ],
+  "Sucre": [
+    {
+      "tipo": "PDA",
+      "empresa": "Aguas de Sucre SA. ESP",
+      "fecha_inicio": null,
+      "fecha_finalizacion": "2017",
+      "descripcion": "Identificación de necesidades de tratamiento de agua potable en centros urbanos y centros poblados principales, de los municipios que comprenden la región de la Mojana, en el departamento de Sucre."
+    },
+    {
+      "tipo": "PDA",
+      "empresa": "Aguas de Sucre SA. ESP",
+      "fecha_inicio": null,
+      "fecha_finalizacion": "2015",
+      "descripcion": "Consultoría para el aseguramiento en la prestación de los servicios públicos de acueducto y alcantarillado, correspondiente a 7 municipios del departamento de Sucre (Caimito, El Roble, Guaranda, La Unión, Majagual, San Benito Abad y Sucre) Grupo 1, en el marco del programa agua para la prosperidad PAP - Plan Departamental de Agua - PDA Sucre."
+    },
+    {
+      "tipo": "PDA",
+      "empresa": "Aguas de Sucre SA. ESP",
+      "fecha_inicio": null,
+      "fecha_finalizacion": "2015",
+      "descripcion": "Consultoría para el aseguramiento en la prestación de los servicios públicos de acueducto y alcantarillado, correspondiente a 10 municipios del departamento de Sucre (Buenavista, Coloso, Chalán, Galeras, Los Palmitos, Morroa, Sampués, Santiago de Tolú, San Antonio de Palmito y Toluviejo) Grupo 2, en el marco del programa agua para la prosperidad PAP - Plan Departamental de Agua - PDA Sucre."
+    },
+    {
+      "tipo": "ESP",
+      "empresa": "SERVIASEO S.A.",
+      "fecha_inicio": "1/06/2012",
+      "fecha_finalizacion": "30/01/2012",
+      "descripcion": "Prestación del servicio de auditoría externa de Gestión y Resultados, de conformidad con lo establecido en el artículo 51 de la ley 142 de 1994. Municipios de San Onofre, Corozal, Chinú y Carmen de Bolívar."
+    },
+    {
+      "tipo": "ESP",
+      "empresa": "SERVIASEO S.A.",
+      "fecha_inicio": "1/02/2011",
+      "fecha_finalizacion": "31/12/2011",
+      "descripcion": "Prestación del servicio de auditoría externa de Gestión y Resultados, de conformidad con lo establecido en el artículo 51 de la ley 142 de 1994. Municipio de San Onofre."
+    },
+    {
+      "tipo": "ESP",
+      "empresa": "SERVIASEO S.A.",
+      "fecha_inicio": "1/01/2011",
+      "fecha_finalizacion": "31/12/2011",
+      "descripcion": "Prestación del servicio de auditoría externa de Gestión y Resultados, de conformidad con lo establecido en el artículo 51 de la ley 142 de 1994. Municipio de Carmen de Bolívar."
+    },
+    {
+      "tipo": "ESP",
+      "empresa": "SERVIASEO S.A.",
+      "fecha_inicio": "1/01/2011",
+      "fecha_finalizacion": "31/12/2011",
+      "descripcion": "Prestación del servicio de auditoría externa de Gestión y Resultados, de conformidad con lo establecido en el artículo 51 de la ley 142 de 1994. Municipio de Corozal."
+    },
+    {
+      "tipo": "ESP",
+      "empresa": "SERVIASEO S.A.",
+      "fecha_inicio": "1/01/2010",
+      "fecha_finalizacion": "31/12/2010",
+      "descripcion": "Prestación del servicio de auditoría externa de Gestión y Resultados, de conformidad con lo establecido en el artículo 51 de la ley 142 de 1994. Municipio de Chinú."
+    },
+    {
+      "tipo": "ESP",
+      "empresa": "SERVIASEO S.A.",
+      "fecha_inicio": "1/01/2010",
+      "fecha_finalizacion": "31/12/2010",
+      "descripcion": "Prestación del servicio de auditoría externa de Gestión y Resultados, de conformidad con lo establecido en el artículo 51 de la ley 142 de 1994. Municipio de Corozal."
+    },
+    {
+      "tipo": "ESP",
+      "empresa": "SERVIASEO S.A.",
+      "fecha_inicio": "1/01/2009",
+      "fecha_finalizacion": "31/12/2009",
+      "descripcion": "Prestación del servicio de auditoría externa de Gestión y Resultados, de conformidad con lo establecido en el artículo 51 de la ley 142 de 1994. Municipio de Corozal."
+    },
+    {
+      "tipo": "Catastro de Usuarios",
+      "empresa": "Aguas de Sucre SA. ESP",
+      "suscriptores": 473
+    }
+  ],
+  "NorteDeSantander": [
     {
       "tipo": "PDA",
       "empresa": "PDA Norte de Santander",
@@ -216,24 +216,6 @@
     {
       "tipo": "PDA",
       "empresa": "PDA Guaviare",
-      "fecha_inicio": null,
-      "fecha_finalizacion": null,
-      "descripcion": "No especificado"
-    }
-  ],
-  "Caqueta": [
-    {
-      "tipo": "PDA",
-      "empresa": "PDA Caqueta",
-      "fecha_inicio": null,
-      "fecha_finalizacion": null,
-      "descripcion": "No especificado"
-    }
-  ],
-  "Putumayo": [
-    {
-      "tipo": "PDA",
-      "empresa": "PDA Putumayo",
       "fecha_inicio": null,
       "fecha_finalizacion": null,
       "descripcion": "No especificado"
@@ -320,7 +302,6 @@
       "descripcion": "Realizar la elaboración de los estudios de costos y tarifas para el servicio de aseo prestado por la Sociedad Empresas de Servicios Públicos de Barbosa S.A E.S.P EMBASEO, con el fin de dar cumplimiento a la normatividad y regulación vigente."
     }
   ],
-
   "Cundinamarca": [
     {
       "tipo": "ESP",
@@ -425,21 +406,20 @@
       "descripcion": "Realizar la interventoría dentro del proyecto de diagnóstico de la transformación empresarial, administrativa, financiera, técnica operativa y comercial de la empresa; la elaboración de los estudios de costos y estructura tarifaria y la implementación y puesta en marcha del fondo de solidaridad y redistribución de ingresos para la prestación de los servicios de acueducto, alcantarillado y aseo en el municipio de Manaure."
     },
     {
-        "tipo": "ESP",
-        "empresa": "ASAA S.A. E.S.P. Avanzadas Soluciones de Acueducto y Alcantarillado",
-        "fecha_inicio": "1/01/2013",
-        "fecha_finalizacion": "31/12/2013",
-        "descripcion": "Realizar la Auditoria Externa de Gestion y Resultados, de conformidad con la ley 142 de 1994, las normas que la modifiquen, sustituyan o complementen, asi como las resoluciones o circulares expedidas por los organismos competentes y las estipulaciones que rigen la operacion, rehabilitacion y mantenimiento de la infraestructura de los servicios publicos de acueducto y alcantarillado, entre el municipio de Riohacha y la sociedad Aguas de la Guajira S.A. E.S.P."
-      },
-      {
-        "tipo": "ESP",
-        "empresa": "ASAA S.A. E.S.P. Avanzadas Soluciones de Acueducto y Alcantarillado",
-        "fecha_inicio": "1/01/2012",
-        "fecha_finalizacion": "31/12/2013",
-        "descripcion": "Realizar la auditoria de gestion y resultados, de conformidad con la ley 142 de 1994, las normas que la modifiquen, sustituyan o complementen, asi como las resoluciones circulares expedidas por los organismos competentes y las estipulaciones que rigen la operacion, rehabilitacion y mantenimiento de la infraestructura de los servicios publicos de acueducto y alcantarillado, entre el municipio de Riohacha y la Empresa Avanzadas Soluciones de Acueducto y Alcantarillado S.A E.S.P."
-      }
+      "tipo": "ESP",
+      "empresa": "ASAA S.A. E.S.P. Avanzadas Soluciones de Acueducto y Alcantarillado",
+      "fecha_inicio": "1/01/2013",
+      "fecha_finalizacion": "31/12/2013",
+      "descripcion": "Realizar la Auditoria Externa de Gestion y Resultados, de conformidad con la ley 142 de 1994, las normas que la modifiquen, sustituyan o complementen, asi como las resoluciones o circulares expedidas por los organismos competentes y las estipulaciones que rigen la operacion, rehabilitacion y mantenimiento de la infraestructura de los servicios publicos de acueducto y alcantarillado, entre el municipio de Riohacha y la sociedad Aguas de la Guajira S.A. E.S.P."
+    },
+    {
+      "tipo": "ESP",
+      "empresa": "ASAA S.A. E.S.P. Avanzadas Soluciones de Acueducto y Alcantarillado",
+      "fecha_inicio": "1/01/2012",
+      "fecha_finalizacion": "31/12/2013",
+      "descripcion": "Realizar la auditoria de gestion y resultados, de conformidad con la ley 142 de 1994, las normas que la modifiquen, sustituyan o complementen, asi como las resoluciones circulares expedidas por los organismos competentes y las estipulaciones que rigen la operacion, rehabilitacion y mantenimiento de la infraestructura de los servicios publicos de acueducto y alcantarillado, entre el municipio de Riohacha y la Empresa Avanzadas Soluciones de Acueducto y Alcantarillado S.A E.S.P."
+    }
   ],
-  
   "Huila": [
     {
       "tipo": "ESP",
@@ -463,7 +443,9 @@
       "fecha_inicio": "4/02/2015",
       "fecha_finalizacion": "4/06/2015",
       "descripcion": "Consultoria para realizar los estudios de Costos y Tarifas para los servicios de acueducto, alcantarillado y aseo, y el catastro de suscriptores para la empresa EMSET S.A. E.S.P. en el municipio de Tauramena – Casanare."
-    },
+    }
+  ],
+  "Santander": [
     {
       "tipo": "ESP",
       "empresa": "Aguas de Barrancabermeja S.A.  E.S.P",
@@ -479,4 +461,4 @@
       "descripcion": "Elaborar el estudio tarifario de costos y tarifas con base en la aplicacion de la metodologia tarifaria definitiva en la resolucion CRA 688 de 2014 y realizar el estudio de viabilidad financiera de la prestacion de los servicios de acueducto y alcantarillado."
     }
   ]
-  }
+}
