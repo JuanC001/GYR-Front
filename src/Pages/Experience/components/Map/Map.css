@@ -1,29 +1,48 @@
 .interactive-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-    padding-left: 20px;
-    padding-right: 20px;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 
 .map__container {
     max-width: 800px;
-    min-width: 500px;
+    min-width: 300px;
 }
 
 .mapa_gyr {
     margin: auto;
 }
 
-.mapa_gyr path {
+.mapa_gyr .nohas_projects {
     fill: var(--color-primary);
+    opacity: 0.5;
     transition: all 0.5s;
     z-index: 100;
 }
 
-path:hover {
+.mapa_gyr .has__projects {
+    fill: var(--color-primary);
+    opacity: 1;
+    transition: all 0.5s;
+    z-index: 100;
+    cursor: pointer;
+}
+
+.mapa_gyr .active {
     fill: var(--color-secondary);
+    stroke: rgba(255, 255, 255, 0.5);
+    stroke-width: 2px;
+    opacity: 1;
+    transition: all 0.5s;
+    z-index: 100;
+    cursor: pointer;
+}
+
+.has__projects:hover {
+    fill: var(--color-secondary-dark);
+    opacity: 1;
 }
 
 .group_region {

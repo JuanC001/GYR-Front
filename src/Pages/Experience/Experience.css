@@ -1,13 +1,16 @@
 .experience__container {
     min-height: 50vh;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 .experience__container_landing {
-    min-height: 80vh;
+    min-height: 60vh;
     background-image: url(/src/assets/experience/experiencia.jpg);
     background-size: cover;
     display: flex;
     align-items: center;
+    background-position: 10%;
 }
 
 .experience__container_landing h1 {
@@ -40,6 +43,7 @@
 .experience_description_content h2 {
     text-align: start;
     font-weight: 700;
+    margin: 0;
 }
 
 .experience_description_content p {
@@ -57,4 +61,20 @@
 
 .experience__section {
     display: grid;
+    width: 80%;    
+    margin: auto;
+}
+
+@media (width < 600px) {
+    .experience__container_landing  h1 {
+        position: static;
+        text-align: center;
+        margin: auto;
+        font-size: 3rem;
+    }
+
+    .experience__container_landing  h1 span {
+        font-size: 3rem;
+        margin-left: 0%;
+    }
 }
