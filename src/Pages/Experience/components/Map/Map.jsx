@@ -13,15 +13,21 @@ export const Map = () => {
         setNameActiveRegion(regionName)
     }
 
+    const handleCloseMobileMenu = () => {
+        setActiveRegion(null)
+        setNameActiveRegion(null)
+    }
+
     return (
         <div className='interactive-container'>
             <div className="map__container">
                 <div className="map">
                     <InteractiveMapV2 handleChangeRegion={handleChangeRegion} nameActiveRegion={nameActiveRegion} />
                 </div>
+
             </div>
-            <div className='map_content'>
-                <h3>
+            <div className='map_content_desktop'>
+                <h3 className='disable-mobile'>
                     {nameActiveRegion !== null ? `Proyectos realizados en ${nameActiveRegion}` : ''}
                 </h3>
                 {activeRegion !== null ?
@@ -31,14 +37,24 @@ export const Map = () => {
                     :
 
                     <div className="region__info">
-                        <h3>Seleccione un proyecto para más información</h3>
+                        <h3>Selecciona una región para más información</h3>
                     </div>
 
                 }
             </div>
-            <div className="mobile_map_content">
+            <h3 className="mobile-text">
+                Selecciona una región para más información
+            </h3>
 
-            </div>
+            {
+                nameActiveRegion !== null &&
+                <div className="map_content_mobile">
+                    <div className="map_content_background" onClick={handleCloseMobileMenu} />
+                    <div className="map_info_content_mobile">
+                        <RegionInfo activeRegion={activeRegion} regionName={nameActiveRegion} />
+                    </div>
+                </div>
+            }
 
         </div>
 
