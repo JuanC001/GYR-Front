@@ -2,6 +2,7 @@ import { Map } from "./components/Map/Map"
 import './Experience.css'
 
 import DecorationSVG from '../../../src/assets/about/images/decoration.svg'
+import { International } from "./components/International/International"
 
 export const Experience = () => {
     return (
@@ -25,6 +26,9 @@ export const Experience = () => {
             </section>
             <section className="experience__section">
                 <Map />
+            </section>
+            <section className="experience__section">
+                <International />
             </section>
         </main>
     )
