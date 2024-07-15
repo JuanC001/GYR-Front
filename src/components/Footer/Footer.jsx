@@ -25,10 +25,11 @@ export const Footer = () => {
         <div className="contact-area">
           <h3 className="contact-tittle">Contacto</h3>
           <ul className="contact-list">
-            <li className="contact-item">+52 55 5555 5555</li>
-            <li className="contact-item">+52 55 5555 5555</li>
+            <li className="contact-item">+57 (601) 3586685</li>
+            <li className="contact-item">+52 (321) 9263235</li>
             <ContactItem email={"info@gestionyresultados.com"} copyToClipboard={copyToClipboard} />
             <ContactItem email={"nuevosnegocios@gestionyresultados.com"} copyToClipboard={copyToClipboard} />
+            <li className="contact-item">Cll 122 #52-49 Bogotá, Colombia</li>
           </ul>
         </div>
       </div>
@@ -48,15 +49,12 @@ const ContactItem = ({ email, copyToClipboard }) => {
   }
   return (
     <li className="contact-item">
-      <a href={`mailto:${email}`}>{email}</a>
-      <button className="copy-button" onClick={handleClick}>
-        <AnimatePresence>
+      <a onClick={handleClick}>{email}</a>
+      <AnimatePresence>
           {isClicked &&
             <motion.span initial={{ y: 30, scaleX: 0, opacity: 0 }} animate={{ y: 0, scaleX: 1, opacity: 1 }} exit={{ opacity: 0 }} className="copy-button-label">Copiado en portapapeles!</motion.span>
           }
         </AnimatePresence>
-        <FontAwesomeIcon size="xs" icon={faCopy} />
-      </button>
     </li>
   )
 }
