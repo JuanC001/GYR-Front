@@ -1,5 +1,5 @@
 import './Auditorias.css'
-import ImagenAuditorias from '../../../../assets/services/auditorias.jpg'
+import ImagenAuditorias from '../../../../assets/services/auditorias.webp'
 
 const textos = {
     lista: [

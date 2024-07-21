@@ -1,3 +1,4 @@
+import { lazy, Suspense } from 'react'
 import './Services.css'
 import { Consultorias } from './components/Consultorias/Consultorias'
 
@@ -6,7 +7,9 @@ import { ConsultoriasSectorSalud } from './components/ConsultoriasSectorSalud/Co
 import { ServiciosAmbientales } from './components/ServiciosAmbientales/ServiciosAmbientales'
 import { Auditorias } from './components/AuditoriasEGR/Auditorias'
 
-import ImagenInterventorias from '../../../src/assets/services/interventorias.jpg'
+//const ConsultoriasSectorSalud = lazy(import('./components/ConsultoriasSectorSalud/ConsultoriasSectorSalud'))
+
+import ImagenInterventorias from '../../../src/assets/services/interventorias.webp'
 
 export const Services = () => {
   return (

@@ -1,10 +1,10 @@
 
 import { useRef } from 'react'
-import MisionJPG from '../../../../assets/about/images/mision.jpg'
+import MisionJPG from '../../../../assets/about/images/mision.webp'
 
 import './Mision.css'
 
-import { motion, useScroll, useTransform, useSpring } from 'framer-motion'
+import { motion, useScroll, useTransform } from 'framer-motion'
 
 export const Mision = () => {
 
@@ -22,7 +22,7 @@ export const Mision = () => {
         <div className="mision-container">
 
             <div className="mision-element-img">
-                <motion.img initial={{ opacity: 0, x: -100 }} whileInView={{ opacity: 1, x: 0, transition: { duration: 1 } }} viewport={{ once: true }} src={MisionJPG} />
+                <motion.img loading='lazy' initial={{ opacity: 0, x: -100 }} whileInView={{ opacity: 1, x: 0, transition: { duration: 1 } }} viewport={{ once: true }} src={MisionJPG} />
             </div>
 
             <div className="mision-element" ref={ref}>

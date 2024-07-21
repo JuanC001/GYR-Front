@@ -5,7 +5,7 @@
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     margin: auto;
     min-height: 60vh;
-    background-image: url('/src/assets/services/serviciosambientales.jpg');
+    background-image: url('/src/assets/services/serviciosambientales.webp');
     background-size: cover;
     background-position: 0px 70%;
 }
