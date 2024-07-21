@@ -5,7 +5,7 @@
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     margin: auto;
     min-height: 60vh;
-    background-image: url('/src/assets/services/consultorias.jpg');
+    background-image: url('/src/assets/services/consultorias.webp');
     background-size: cover;
     background-attachment: fixed;
 
