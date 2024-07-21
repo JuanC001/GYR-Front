@@ -5,13 +5,16 @@ import './ConsultoriasSectorSalud.css'
 export const ConsultoriasSectorSalud = () => {
     return (
         <div className="ss_image__container">
-            <ConsultoryItem text={'Plan Hospitalario Para Emergencias'} id={1} />
-            <ConsultoryItem text={'Plan De Gestión Integral De Residuos Hospitalarios Y Similares - PGIRHS'} id={2} />
+            <ConsultoryItem text={'Plan Hospitalario Para Emergencias'} id={1} description={`
+                Analizamos integralmente los riesgos y determinamos las medidas de prevención, mitigación y respuesta ante desastres que puedan presentarse en instituciones prestadoras de servicio de salud, conforme a la normatividad vigente.
+                `} />
+            <ConsultoryItem text={'Plan De Gestión Integral De Residuos Hospitalarios Y Similares - PGIRHS'} id={2} description={`
+                Elaboramos y establecemos los procedimientos, procesos, actividades y presupuestos que se deberán ejecutar dentro del marco sanitario y ambiental, para el manejo integral de los residuos generados durante la prestación de los servicios de salud.`} />
         </div>
     )
 }
 
-const ConsultoryItem = ({ text, id }) => {
+const ConsultoryItem = ({ text, id, description }) => {
 
     const [openContent, setOpenContent] = useState(false)
 
@@ -37,7 +40,7 @@ const ConsultoryItem = ({ text, id }) => {
                             <button onClick={updateModal}>x</button>
                         </motion.div>
                         <motion.div className="modal__body">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, quam sit amet viverra mattis, justo sapien fermentum velit, id placerat neque eros vel enim. Donec pellentesque, neque vel consectetur vestibulum, felis velit vulputate velit, at tincidunt justo velit in velit.</p>
+                            {description}
                         </motion.div>
                     </motion.div>
                 </motion.div>}
