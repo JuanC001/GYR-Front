@@ -57,7 +57,7 @@ hr {
 
 .hover-reactive {
     height: 600px;
-    background-image: url(/src/assets/home/images/plantas_deco.jpg);
+    background-image: url(/src/assets/home/images/plantas_deco.webp);
     background-position: 50%;
     background-size: cover;
     display: flex;
