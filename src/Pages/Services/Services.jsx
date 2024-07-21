@@ -1,4 +1,3 @@
-import { lazy, Suspense } from 'react'
 import './Services.css'
 import { Consultorias } from './components/Consultorias/Consultorias'
 
