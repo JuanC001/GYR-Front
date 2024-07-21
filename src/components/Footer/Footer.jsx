@@ -1,8 +1,5 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-
 import { LogoAnimated } from "../Logo/Logo"
 import './Footer.css'
-import { faCopy } from "@fortawesome/free-regular-svg-icons"
 
 import { AnimatePresence, motion } from 'framer-motion'
 import { useState } from "react"
@@ -49,7 +46,7 @@ const ContactItem = ({ email, copyToClipboard }) => {
   }
   return (
     <li className="contact-item">
-      <a onClick={handleClick}>{email}</a>
+      <span onClick={handleClick}>{email}</span>
       <AnimatePresence>
           {isClicked &&
             <motion.span initial={{ y: 30, scaleX: 0, opacity: 0 }} animate={{ y: 0, scaleX: 1, opacity: 1 }} exit={{ opacity: 0 }} className="copy-button-label">Copiado en portapapeles!</motion.span>

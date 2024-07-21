@@ -9,11 +9,20 @@ import { Auditorias } from './components/AuditoriasEGR/Auditorias'
 //const ConsultoriasSectorSalud = lazy(import('./components/ConsultoriasSectorSalud/ConsultoriasSectorSalud'))
 
 import ImagenInterventorias from '../../../src/assets/services/interventorias.webp'
+import { Helmet } from 'react-helmet'
+
+const description = "Desarrollamos auditorías externas, interventorías y actividades asociadas al fortalecimiento institucional y estructuración de alternativas empresariales eficientes, a prestadores de servicios públicos domiciliarios, nacional e internacionalmente."
 
 export const Services = () => {
   return (
     <div>
-
+      <Helmet>
+        <title>Servicios - GYR</title>
+        <meta name='description' content={description} />
+        <meta property='og:title' content='Servicios - GYR' />
+        <meta property='og:description' content={description} />
+        
+      </Helmet>
       <div className="services-landing">
         <h1>Nuestros <span>Servicios</span></h1>
       </div>
@@ -24,7 +33,7 @@ export const Services = () => {
         </div>
         <div className="services-intro-container">
           <p>
-            Desarrollamos auditorías externas, interventorías y actividades asociadas al fortalecimiento institucional y estructuración de alternativas empresariales eficientes, a prestadores de servicios públicos domiciliarios, nacional e internacionalmente.
+            {description}
           </p>
         </div>
       </section>
