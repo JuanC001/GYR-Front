@@ -17,7 +17,7 @@ export const Services = () => {
   return (
     <div>
       <Helmet>
-        <title>Servicios - GYR</title>
+        <title>Servicios - Gestión y Resultados S.A.S.</title>
         <meta name='description' content={description} />
         <meta property='og:title' content='Servicios - GYR' />
         <meta property='og:description' content={description} />
@@ -29,7 +29,7 @@ export const Services = () => {
 
       <section className="services-section-intro">
         <div className="decoration-services-container">
-          <img src={DecorationSVG} />
+          <img src={DecorationSVG} alt=''/>
         </div>
         <div className="services-intro-container">
           <p>

@@ -36,7 +36,7 @@ export const Vision = () => {
       </div>
 
       <div className="vision-element-img">
-        <motion.img loading="lazy" initial={{ opacity: 0, x: 100 }} whileInView={{ opacity: 1, x: 0, transition: { duration: 1 } }} src={VisionJPG} viewport={{ once: true }} />
+        <motion.img loading="lazy" alt="" initial={{ opacity: 0, x: 100 }} whileInView={{ opacity: 1, x: 0, transition: { duration: 1 } }} src={VisionJPG} viewport={{ once: true }} />
       </div>
 
     </div>

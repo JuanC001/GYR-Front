@@ -14,7 +14,7 @@ export const About = () => {
   return (
     <main>
       <Helmet>
-        <title>About - GYR</title>
+        <title>About - Gestión y Resultados S.A.S.</title>
         <meta name='description' content={text} />
         <meta property='og:title' content='About - GYR' />
         <meta property='og:description' content={text}/>

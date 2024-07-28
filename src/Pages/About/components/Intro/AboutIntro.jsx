@@ -7,7 +7,7 @@ export const AboutIntro = () => {
     return (
         <div className='about-intro'>
             <div className="decoration-about-container">
-                <img src={DecorationSVG} />
+                <img src={DecorationSVG} alt='' />
             </div>
             <div className="about-intro-container">
                 <div className="about-intro-content">

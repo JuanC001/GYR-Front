@@ -1,0 +1,139 @@
+.contact-container {
+    min-height: 100vh;
+    max-width: 2000px;
+    margin: auto;
+    margin-bottom: 10%;
+}
+
+.contact-content {
+    max-width: 1500px;
+    margin: auto;
+}
+
+.contact-landing {
+    position: relative;
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
+    background-image: url(/src/assets/contact/contact.webp);
+    display: flex;
+    align-items: center;
+}
+
+.contact-landing h1 {
+    position: absolute;
+    max-width: 500px;
+    font-size: 5rem;
+    color: white;
+    left: 15%;
+    bottom: 50%;
+    text-shadow: 10px 10px 12px rgb(0, 0, 0);
+}
+
+.contact-landing img {
+    position: absolute;
+    bottom: 0;
+    left: -1%;
+    right: 0;
+    width: 105%;
+}
+
+.contact-intro {
+    width: 80%;
+    min-height: 20vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: auto;
+    margin-bottom: 5%;
+    color: var(--color-secondary-dark);
+    font-weight: 600;
+}
+
+.contact-intro h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.contact-section {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 5%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.contact-section form {
+    background-color: var(--color-secondary-dark);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    padding: 20px;
+    margin: auto;
+    min-height: 40vh;
+}
+
+.contact-section form input,
+textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: 0px;
+    font-family: 'montserrat';
+}
+
+.contact-section form textarea {
+    height: 150px;
+    margin-bottom: 2rem;
+    resize: vertical;
+}
+
+.contact-section form button {
+    width: 90%;
+    padding: 10px;
+    background-color: var(--color-primary);
+    color: white;
+    border-radius: 5px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.contact-info {
+    text-align: end;
+    font-weight: 600;
+    color: var(--color-secondary-dark);
+}
+
+.map {
+    min-height: 50vh;
+    margin: auto;
+    margin-top: 2%;
+}
+
+@media (width < 600px) {
+    .contact-landing h1 {
+        position: static;
+        text-align: center;
+        margin: auto;
+    }
+
+    .contact-landing h1 span {
+        font-size: 5rem;
+        margin-left: 0%;
+    }
+
+    .contact-info p {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .map {
+        margin-top: 10%;
+    }
+}

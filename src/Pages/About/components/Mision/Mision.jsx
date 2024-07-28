@@ -22,7 +22,7 @@ export const Mision = () => {
         <div className="mision-container">
 
             <div className="mision-element-img">
-                <motion.img loading='lazy' initial={{ opacity: 0, x: -100 }} whileInView={{ opacity: 1, x: 0, transition: { duration: 1 } }} viewport={{ once: true }} src={MisionJPG} />
+                <motion.img loading='lazy' alt='' initial={{ opacity: 0, x: -100 }} whileInView={{ opacity: 1, x: 0, transition: { duration: 1 } }} viewport={{ once: true }} src={MisionJPG} />
             </div>
 
             <div className="mision-element" ref={ref}>
