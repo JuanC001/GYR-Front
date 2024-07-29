@@ -4,7 +4,6 @@ import './Contact.css'
 
 import DecorationSVG from '../../assets/contact/decoration.svg'
 import { useState } from 'react'
-import { useEffect } from 'react'
 
 export const Contact = () => {
   const { sendEmail } = useEmail()
