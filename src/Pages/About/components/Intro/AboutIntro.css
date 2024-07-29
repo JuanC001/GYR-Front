@@ -49,3 +49,7 @@
     margin: auto;
     color: white;
 }
+
+@media (width < 768px) {
+    
+}

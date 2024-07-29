@@ -62,17 +62,27 @@
 
     .mision-container {
         position: relative;
+        min-height: 60vh;
     }
 
     .mision-element {
         position: absolute;
+        background-image: url(/src/assets/about/images/mision.webp);
+        background-size: cover;
+        border-radius: 20px;
     }
 
     .mision-content {
         position: static;
+        background-color: transparent;
+        backdrop-filter: blur(10px);
     }
 
     .mision-content p {
         color: white;
+    }
+
+    .mision-element-img {
+        display: none;
     }
 }

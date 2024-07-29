@@ -60,17 +60,26 @@
 
 @media (max-width: 768px) {
 
+    .vision-element-img {
+        display: none;
+    }
+
     .vision-container {
         position: relative;
+
     }
 
     .vision-element {
         position: absolute;
-        z-index: 1;
+        background-image: url(/src/assets/about/images/vision.webp);
+        background-size: cover;
+        border-radius: 20px;
     }
 
     .vision-content {
         position: static;
+        background-color: transparent;
+        backdrop-filter: blur(10px);
     }
 
     .vision-content p {
