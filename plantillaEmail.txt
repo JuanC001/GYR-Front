@@ -1,0 +1,12 @@
+En caso de poder usar EmailJS se tiene la siguiente plantilla:
+
+emailjs.send("service_a69emip","template_ds56cwb",{
+name: "Juan",
+message: "Mensaje",
+asunto: "Asunto",
+email: "uncorreo@correo.com",
+});
+
+Quiere decir que en la configuración de la cuenta de emailjs se deben generar los campos para ellos:
+
+{{name}} {{message}} {{asunto}} {{email}}
