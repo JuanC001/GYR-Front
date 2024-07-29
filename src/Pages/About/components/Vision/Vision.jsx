@@ -1,6 +1,6 @@
 import { useScroll, useTransform } from "framer-motion"
 import { useRef } from "react"
-
+import useWindowSize from "../../../../hooks/useWindowSize"
 import { motion } from 'framer-motion'
 
 import VisionJPG from '../../../../assets/about/images/vision.webp'
@@ -16,12 +16,12 @@ export const Vision = () => {
 
   })
 
-  const translation = useTransform(scrollYProgress, [0, 1], ["0%", "65%"])
+  const { width } = useWindowSize()
+
+  const translation = useTransform(scrollYProgress, [0, 1], ["0%", width > 768 ? "65%" : "0%"])
 
   return (
     <div className="vision-container">
-
-
 
       <div className="vision-element" ref={ref}>
         <motion.div style={{ y: translation }} initial={{ x: -200, opacity: 0 }} whileInView={{ opacity: 1, x: 0, transition: { duration: 1 } }} viewport={{ once: true }} className="vision-content">

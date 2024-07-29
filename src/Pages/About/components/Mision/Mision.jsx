@@ -5,6 +5,7 @@ import MisionJPG from '../../../../assets/about/images/mision.webp'
 import './Mision.css'
 
 import { motion, useScroll, useTransform } from 'framer-motion'
+import useWindowSize from '../../../../hooks/useWindowSize'
 
 export const Mision = () => {
 
@@ -16,7 +17,9 @@ export const Mision = () => {
 
     })
 
-    const translation = useTransform(scrollYProgress, [0, 1], ["0%", "35%"])
+    const { width } = useWindowSize()
+
+    const translation = useTransform(scrollYProgress, [0, 1], ["0%", width > 768 ? "35%" : "0%"])
 
     return (
         <div className="mision-container">
