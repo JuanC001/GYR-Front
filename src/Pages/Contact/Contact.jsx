@@ -1,14 +1,24 @@
 import { Helmet } from 'react-helmet'
+import { useEmail } from '../../hooks/useEmail'
 import './Contact.css'
 
 import DecorationSVG from '../../assets/contact/decoration.svg'
+import { useState } from 'react'
+import { useEffect } from 'react'
 
 export const Contact = () => {
+  const { sendEmail } = useEmail()
+
+  const [nombre, setNombre] = useState('')
+  const [asunto, setAsunto] = useState('')
+  const [correo, setCorreo] = useState('')
+  const [mensaje, setMensaje] = useState('')
 
   const handleSubmit = (e) => {
     e.preventDefault()
     alert('El mensaje ha sido enviado correctamente.')
     // Enviar email aquí
+    sendEmail(nombre, correo, asunto, mensaje)
   }
 
   return (
@@ -34,10 +44,10 @@ export const Contact = () => {
         </section>
         <section className="contact-section">
           <form onSubmit={handleSubmit}>
-            <input type="text" placeholder="Nombre" required />
-            <input type="text" placeholder="Asunto" required />
-            <input type="email" placeholder="Correo electrónico" required />
-            <textarea placeholder="Consulta o comentario" required></textarea>
+            <input type="text" name='name' placeholder="Nombre" required onChange={(e) => setNombre(e.target.value)} />
+            <input type="text" name='asunto' placeholder="Asunto" required onChange={(e) => setAsunto(e.target.value)} />
+            <input type="email" name='email' placeholder="Correo electrónico" required onChange={(e) => setCorreo(e.target.value)} />
+            <textarea name='menssage' placeholder="Consulta o comentario" required onChange={(e) => setMensaje(e.target.value)} ></textarea>
             <button type="submit">Enviar</button>
           </form>
           <div className="contact-info">
