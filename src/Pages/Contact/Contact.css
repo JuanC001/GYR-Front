@@ -76,6 +76,7 @@
     padding: 20px;
     margin: auto;
     min-height: 40vh;
+    position: relative;
 }
 
 .contact-section form input,
@@ -114,6 +115,24 @@ textarea {
     min-height: 50vh;
     margin: auto;
     margin-top: 2%;
+}
+
+.spinner {
+    position: absolute;
+    z-index: 1000;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.315);
+    border-radius: 20px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.spinner img {
+    max-width: 20%;
 }
 
 @media (width < 600px) {
