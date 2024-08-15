@@ -76,6 +76,7 @@ export const Services = () => {
           </p>
         </div>
         <div className="container-interventorias">
+          <span className="block-image"></span>
           <img src={ImagenInterventorias} />
         </div>
       </section>
