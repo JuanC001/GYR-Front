@@ -1,10 +1,33 @@
 {
+  "Atlantico": [
+    {
+      "tipo": "PDA",
+      "empresa": "AIR-E SAS E.S.P",
+      "fecha_inicio": "2021",
+      "fecha_finalizacion": "2023",
+      "descripcion": "Prestación de servicios Auditoría Externa de Gestión y Resultados para AIR-E S.A.S. E.S.P"
+    },
+    {
+      "tipo": "PDA",
+      "empresa": "AIR-E SAS E.S.P",
+      "fecha_inicio": "2022",
+      "fecha_finalizacion": "2023",
+      "descripcion": "Prestación de servicios de auditoria en auditoria y certificación de las áreas especiales (Zonas de difícil gestión y prones para AIR-E S.A.S. E.S.P"
+    },
+    {
+      "tipo": "PDA",
+      "empresa": " Empresa Aguas de Malambo S.A. E.S.P. ",
+      "fecha_inicio": "",
+      "fecha_finalizacion": "2011",
+      "descripcion": "Estudio para la definición, estructuración y actualizacion de costos y tarifas de acueducto y alcantarillado según resolución CRA 287 de 2004, de la empresa Aguas de Malambo S.A. E.S.P. en el municipio de Malambo"
+    }
+  ],
   "Magdalena": [
     {
       "tipo": "PDA",
       "empresa": "Aguas del Magdalena S.A.S. E.S.P.",
       "fecha_inicio": null,
-      "fecha_finalizacion": "En curso desde 6/12/2017",
+      "fecha_finalizacion": "2019",
       "descripcion": "Formulación de alternativas técnicas y empresariales para la estructuración de los esquemas regionales de aseo en el departamento del Magdalena."
     }
   ],
@@ -12,14 +35,14 @@
     {
       "tipo": "PDA",
       "empresa": "Aguas del Cesar S.A. E.S.P.",
-      "fecha_inicio": "26/07/2018",
-      "fecha_finalizacion": "26/08/2019",
+      "fecha_inicio": "",
+      "fecha_finalizacion": "2019",
       "descripcion": "Implementación de la fase ii del plan de aseguramiento de la prestación de los servicios de agua potable y saneamiento básico en siete (7) municipios del PDA-PAP y cinco (5) comunidades indígenas en el departamento del Cesar."
     },
     {
       "tipo": "PDA",
       "empresa": "Aguas del Cesar S.A. E.S.P.",
-      "fecha_inicio": null,
+      "fecha_inicio": "",
       "fecha_finalizacion": "2013",
       "descripcion": "Estructuración técnica, legal y financiera para la definición de esquemas regionales del servicio de aseo en el departamento de Cesar."
     },
@@ -27,6 +50,34 @@
       "tipo": "Catastro de Usuarios",
       "empresa": "Aguas del Cesar S.A. E.S.P.",
       "suscriptores": 42554
+    },
+    {
+      "tipo": "PDA",
+      "empresa": "Empresa de servicios públicos, AAA de La Jagua de Ibiríco",
+      "fecha_inicio": "2019",
+      "fecha_finalizacion": "2023",
+      "descripcion": "Servicios profesionales para realizar la auditoria externa de gestión y resultados a la empresa de servicios públicos, AAA de La Jagua de Ibiríco S.A. E.S.P, en el municipio de Jagua de Ibiríco"
+    },
+    {
+      "tipo": "ESP",
+      "empresa": "Aguas de Manizales S.A E.S.P",
+      "fecha_inicio": "",
+      "fecha_finalizacion": "2009",
+      "descripcion": "Prestación de Servicios para el Desarrollo del Componente de Manejo de Residuos Sólidos como parte de la Gerencia del Plan Departamental de Agua del Cesar. Denominado también Programa de Transformación Estructural de la Prestación de los Servicios de Agua Potable y Saneamiento Básico del Departamento Del Cesar sin incluir la Interventoria."
+    },
+    {
+      "tipo": "PDA",
+      "empresa": "Aguas de Manizales S.A E.S.P",
+      "fecha_inicio": "",
+      "fecha_finalizacion": "2009",
+      "descripcion": "Prestacion de servicios para el desarrollo del componente de aseo de residuos solidos, como parte de la gerencias del PDA del cesar denomicado tambien 'Programa de transformacion estrutural de la prestacion de los servicios de agua potable y saneamiento basico del despartamento del Cesar' sin incluir la interventoria"
+    },
+    {
+      "tipo": "PDA",
+      "empresa": "EMPRESA DE SERVICIOS DE ASEO DE VALLEDUPAR S.A E.S.P. - ASEOUPAR S.A.S E.S.P.",
+      "fecha_inicio": "2020",
+      "fecha_finalizacion": "2023",
+      "descripcion": "“REALIZAR LA AUDITORÍA EXTERNA DE GESTIÓN Y RESULTADOS PARA LA VIGENCIA 2020, CONFORME A LA LEY 142 DE 1994; MODIFICADA POR LA LEY 689 DE 2001 Y DEMÁS NORMAS QUE LAS COMPLEMENTAN, MODIFIQUEN O ADICIONEN, ESPECIALMENTE LAS RESOLUCIONES, CIRCULARES Y DEMÁS NORMAS DE LA SUPERINTENDENCIA DE SERVICIOS PÚBLICOS DOMICILIARIOS DIRIGIDAS A LOS SUJETOS OBJETO DE SU VIGILANCIA Y CONTROL O CUALQUIER OTRO ENTE GUBERNAMENTAL”. para el componente de Disposición final – DF en la Ciudad de Valledupar – Cesar.  "
     }
   ],
   "Bolivar": [
@@ -59,16 +110,30 @@
       "descripcion": "Estructuración de un esquema regional para la prestación de los servicios de acueducto y alcantarillado en los municipios de San Jacinto del Cauca, Montecristo, Achi, Pinillos, Tiquisio y Arenal del sur del departamento de Bolívar."
     },
     {
-      "tipo": "ESP",
-      "empresa": "Bioger S.A. E.S.P.",
-      "direccion": "Centro empresarial villa esmeralda Calle 27 No 26-335, Turbaco-Cartagena, Turbaco, Bolívar, Colombia",
-      "telefono": "+57 318 8833503",
-      "web": "www.biogersaesp.com"
-    },
-    {
       "tipo": "Catastro de Usuarios",
       "empresa": "Aguas de Bolívar SA. ESP",
       "suscriptores": 37146
+    },
+    {
+      "tipo": "ESP",
+      "empresa": "Serviaseo S.A. E.S.P.",
+      "fecha_inicio": "",
+      "fecha_finalizacion": "2011",
+      "descripcion": "Prestación del servicio de auditoría externa de Gestión y Resultados, de conformidad con lo establecido en el artículo 51 de la ley 142 de 1994. Municipio de Carmen de Bolivar."
+    },
+    {
+      "tipo": "ESP",
+      "empresa": "Consorcio Lime Cartagena",
+      "fecha_inicio": "2005",
+      "fecha_finalizacion": "2006",
+      "descripcion": "Prestación del servicio de Auditoría Externa de Gestión y Resultados por parte del auditor a la empresa CONSORCIO LIMPIEZA METROPOLITANA-(NUIR 1-13001000-3), de conformidad con lo establecido en el artículo 51 de la ley 142 de 1994."
+    },
+    {
+      "tipo": "ESP",
+      "empresa": "Ciudad limpia del Caribe S.A. E.S.P.",
+      "fecha_inicio": "",
+      "fecha_finalizacion": "2005",
+      "descripcion": "Servicios de Auditoría Externa de Control de Gestión y Resultados."
     }
   ],
   "Sucre": [
@@ -117,8 +182,8 @@
     {
       "tipo": "ESP",
       "empresa": "SERVIASEO S.A.",
-      "fecha_inicio": "1/01/2011",
-      "fecha_finalizacion": "31/12/2011",
+      "fecha_inicio": "2006",
+      "fecha_finalizacion": "2012",
       "descripcion": "Prestación del servicio de auditoría externa de Gestión y Resultados, de conformidad con lo establecido en el artículo 51 de la ley 142 de 1994. Municipio de Corozal."
     },
     {
@@ -131,21 +196,63 @@
     {
       "tipo": "ESP",
       "empresa": "SERVIASEO S.A.",
-      "fecha_inicio": "1/01/2010",
-      "fecha_finalizacion": "31/12/2010",
-      "descripcion": "Prestación del servicio de auditoría externa de Gestión y Resultados, de conformidad con lo establecido en el artículo 51 de la ley 142 de 1994. Municipio de Corozal."
+      "fecha_inicio": "",
+      "fecha_finalizacion": "2023",
+      "descripcion": "Actualización del Plan de Gestión Integra de Residuos Sólidos - PGIRS para el municipio de Majagual en el Departamento de Sucre"
     },
     {
       "tipo": "ESP",
       "empresa": "SERVIASEO S.A.",
-      "fecha_inicio": "1/01/2009",
-      "fecha_finalizacion": "31/12/2009",
-      "descripcion": "Prestación del servicio de auditoría externa de Gestión y Resultados, de conformidad con lo establecido en el artículo 51 de la ley 142 de 1994. Municipio de Corozal."
+      "fecha_inicio": "",
+      "fecha_finalizacion": "2011",
+      "descripcion": "Formulación de la regionalización el servicio publico de aseo en todos o algunos de sus componentes en el marco de la gestión integral de residuos solidos, incluyendo la disposición final de los Municipios del Departamento de Sucre vinculados al PDA Sucre."
+    },
+    {
+      "tipo": "ESP",
+      "empresa": "SERVIASEO S.A.",
+      "fecha_inicio": "",
+      "fecha_finalizacion": "2023",
+      "descripcion": "Aseguramiento d ela prestación de los servicois de agua potable y saneamiento básico en los municipios de Caimito, Galeras, Guaranda, Majagual, Sampués, San Benito Abad, San Marcos y Sucre, Departamento de Sucre."
+    },
+    {
+      "tipo": "ESP",
+      "empresa": "SERVIASEO S.A.",
+      "fecha_inicio": "",
+      "fecha_finalizacion": "2011",
+      "descripcion": "Prestación del servicio de auditoría externa de Gestión y Resultados, de conformidad con lo establecido en el artículo 51 de la ley 142 de 1994. Municipio de San Onofre (Sucre)."
+    },
+    {
+      "tipo": "ESP",
+      "empresa": "SERVIASEO S.A.",
+      "fecha_inicio": "",
+      "fecha_finalizacion": "2006",
+      "descripcion": "Estudios de costos y tarifas del servicio público domiciliario de aseo aplicadas a los usuarios y/o suscriptores del municipio de Corozal departamento de Sucre."
+    },
+    {
+      "tipo": "ESP",
+      "empresa": "SERVIASEO S.A.",
+      "fecha_inicio": "",
+      "fecha_finalizacion": "2006",
+      "descripcion": "Estudios y diseños definitivos para la ampliación y optimización del relleno sanitario La Candelaria en el Municipio de Corozal – Sucre."
+    },
+    {
+      "tipo": "ESP",
+      "empresa": "SERVIASEO S.A.",
+      "fecha_inicio": "",
+      "fecha_finalizacion": "2006",
+      "descripcion": "Estudios y diseños definitivos para la ampliación y optimización del relleno sanitario La Candelaria en el Municipio de Corozal – Sucre."
+    },
+    {
+      "tipo": "ESP",
+      "empresa": "SERVIASEO S.A.",
+      "fecha_inicio": "",
+      "fecha_finalizacion": "2007",
+      "descripcion": "Interventoría  de la construcción del relleno Sanitario La Candelaria, ubicado en el municipio de Corozal - Sucre."
     },
     {
       "tipo": "Catastro de Usuarios",
       "empresa": "Aguas de Sucre SA. ESP",
-      "suscriptores": 473
+      "suscriptores": 37146
     }
   ],
   "NorteDeSantander": [
@@ -159,21 +266,23 @@
     {
       "tipo": "ESP",
       "empresa": "Aguas Kapital Cúcuta SA. ESP",
-      "fecha_inicio": "01/01/2015",
-      "fecha_finalizacion": "31/12/2015",
-      "descripcion": "Prestación del servicio de Auditoría Externa de Gestión y Resultados, de conformidad con lo establecido en el artículo 51 de la ley 142 de 1994."
+      "fecha_inicio": "2005",
+      "fecha_finalizacion": "2023",
+      "descripcion": "Realizar la auditoría externa de Gestión y Resultados de conformidad con la ley 142 de 1994, las normas que la modifiquen, sustituyan o complementen, así como las resoluciones o circulares expedidas por los organismos competentes."
     },
     {
       "tipo": "ESP",
-      "empresa": "ESPO S.A",
-      "contacto": "Ocaña, North Santander, Colombia",
-      "telefono": "+57 607 5613020",
-      "website": "www.espo.com.co"
+      "empresa": "ESPO S.A. E.S.P",
+      "fecha_inicio": "",
+      "fecha_finalizacion": "2012",
+      "descripcion": "Asesoria para el seguimiento, control tarifario y solución de conflictos en la aplicación de las tarifas para los servicios de acueducto, alcantarilla y aseo prestados por ESPO S.A. E.S.P."
     },
     {
-      "tipo": "Catastro de Usuarios",
-      "empresa": "Aguas de Bolívar SA. ESP",
-      "suscriptores": "No especificado"
+      "tipo": "ESP",
+      "empresa": "Empresa Municipales de TIBU E.S.P",
+      "fecha_inicio": "",
+      "fecha_finalizacion": "2011",
+      "descripcion": "Revision detallada del analisis del marco normativo relacionado con la organización y presentacion de informacion por parte de las EMPRESAS MUNICIPALES DE TIBU E.S.P al sistema unico de informacion SUI y verificacion de algunos aspectos relevantes sobre el mismo, de acuerdo a lo establecido en la Resolucion compilatoria 15085 de julio de 2009 , por la cual se unifica en un solo acto administrativo la normatividad expedida en el Sector de Agua Potable y Saneamiento Basico  para el cargue de la informacion al SUI , hasta poner al dia con los formularios que hacen falta y que han sido requerido por la SSPD, ademas, capacitar al personal de la Empresa en el reporte y cargue de la informacion al SUI."
     }
   ],
   "Vichada": [
@@ -201,6 +310,13 @@
       "fecha_inicio": "30/04/2009",
       "fecha_finalizacion": "30/10/2009",
       "descripcion": "Elaboración de estudio técnico que permita implementar una estrategia de modernización empresarial para asumir el papel de gestor del Plan Departamental de Agua."
+    },
+    {
+      "tipo": "ESP",
+      "empresa": "Empresa de Servicios Públicos de Granada Meta",
+      "fecha_inicio": "",
+      "fecha_finalizacion": "2019",
+      "descripcion": "Estructuración Técnica, Legal y Financiera, de la organización que permita la presentación del servicio de aseo en el municipio de Granada Meta, Contemplando las condiciones actuales y futuras de la prestación del servicio de aseo."
     }
   ],
   "Vaupes": [
@@ -228,6 +344,20 @@
       "fecha_inicio": null,
       "fecha_finalizacion": null,
       "descripcion": "1. Estudios y diseños para la formulación de actividades complementarias del Plan de Cierre, clausura y restauración ambiental del Relleno sanitario El Ojito en el municipio de Popayán, departamento del Cauca.\n2. Estudios y diseños para la formulación de actividades complementarias del Plan de Cierre, clausura y restauración ambiental del Relleno sanitario El Arbolito en el municipio de Sotará, departamento del Cauca."
+    },
+    {
+      "tipo": "PDA",
+      "empresa": "ALCALDÍA DE POPAYÁN",
+      "fecha_inicio": "2011",
+      "fecha_finalizacion": "2015",
+      "descripcion": "Interventoría del servicio publico de aseo prestado por la empresa SERVIASEO POPAYAN S.A. E.S.P."
+    },
+    {
+      "tipo": "PDA",
+      "empresa": "Secretaria de Infraestructura Departamento del Cauca 'GUAPI'",
+      "fecha_inicio": "",
+      "fecha_finalizacion": "2015",
+      "descripcion": "Consultoría Fase I estudio de prefactibilidad del proyecto fortalecimiento integral de la unidad de a servicios públicos domiciliarios de acueducto, alcantarillado y aseo para el municipio de Guapi departamento del Cauca."
     }
   ],
   "ValleDelCauca": [
@@ -255,8 +385,8 @@
     {
       "tipo": "ESP",
       "empresa": "EPSY S.A. E.S.P",
-      "fecha_inicio": "03/04/2019",
-      "fecha_finalizacion": null,
+      "fecha_inicio": "",
+      "fecha_finalizacion": "2019",
       "descripcion": "Actualización de Catastro de usuarios de los servicios de acueducto y alcantarillado para la zona de ladera del municipio de Yumbo, Valle del Cauca."
     },
     {
@@ -267,9 +397,35 @@
       "descripcion": "Consultoría para el fortalecimiento organizacional técnico, administrativo y financiero para la ampliación de la prestación de los servicios públicos prestados por ESPY S.A E.S.P en el municipio de Yumbo, Valle del Cauca."
     },
     {
+      "tipo": "ESP",
+      "empresa": "EPSY S.A. E.S.P",
+      "fecha_inicio": "",
+      "fecha_finalizacion": "2023",
+      "descripcion": "Contrato de consultoría para la modificación y actualización del estudio tarifario de la empresa, que permita la incorporación de los costos de operación del sistema de acueducto (pozos) y planta de tratammiento de aguas residuales (PTAR), bajo os ineamientos de la Resolución CRA 688 de 2014 y sus resoluciones modificactorias."
+    },
+    {
+      "tipo": "ESP",
+      "empresa": "Proactiva de Servicios S.A. E.S.P",
+      "fecha_inicio": "",
+      "fecha_finalizacion": "2006",
+      "descripcion": "Elaboración de los estudios de costos y tarifas del servicio de aseo para los municipios de Ginebra, Guacarí, La Unión y Zarzal - Valle del Cauca."
+    },
+    {
+      "tipo": "ESP",
+      "empresa": "FINDETER",
+      "fecha_inicio": "",
+      "fecha_finalizacion": "2017",
+      "descripcion": "Interventoría técnica, administrativa, financiera, contable, ambiental, social y jurídica para la 'Consultoría especializada para evaluar, formular y apoyar la implementación de procesos de reorganización de la prestación de los servicios públicos de acueducto y alcantarillado en el distrito de Buenaventura- Departamento Valle del Cauca y consultoría especializada para establecer la viabilidad, las condiciones, los términos de las modificaciones y/o los ajustes al contrato de operación suscrito entre Aguas de San Andrés S.A E.S.P y Proactiva Aguas del Archipiélago S.A E.S.P cuyo objeto es 'La operación de la infraestructura destinada a la prestación de servicios de acueductos y alcantarillado en la Isla de San Andrés'."
+    },
+    {
       "tipo": "Catastro de Usuarios",
       "empresa": "Vallecaucana de Aguas SA. ESP",
       "suscriptores": 65582
+    },
+    {
+      "tipo": "Catastro de Usuarios",
+      "empresa": "Catastro de Usuarios - Dpto. Valle Del Cauca",
+      "suscriptores": "6.612"
     },
     {
       "tipo": "Catastro de Usuarios",
@@ -279,11 +435,11 @@
   ],
   "Caldas": [
     {
-      "tipo": "PDA",
-      "empresa": "PDA Caldas. Aguas de Manizales SA. ESP",
-      "fecha_inicio": null,
-      "fecha_finalizacion": "2009",
-      "descripcion": "Prestación de Servicios para el Desarrollo del Componente de Manejo de Residuos Sólidos como parte de la Gerencia del Plan Departamental de Agua del Cesar. Denominado también Programa de Transformación Estructural de la Prestación de los Servicios de Agua Potable y Saneamiento Básico del Departamento Del Cesar."
+      "tipo": "ESP",
+      "empresa": "Aguas de Manizales S.A E.S.P",
+      "fecha_inicio": "",
+      "fecha_finalizacion": "2010",
+      "descripcion": "Prestación de servicios para el acompañamiento al desarrollo del componente de manejo de residuos sólidos como parte de la Gerencia del Plan Departamental de Agua del Departamento de Caldas a cargo de Aguas de Manizales S.A E.S.P."
     }
   ],
   "Antioquia": [
@@ -300,6 +456,20 @@
       "fecha_inicio": "15/10/2015",
       "fecha_finalizacion": "31/05/2016",
       "descripcion": "Realizar la elaboración de los estudios de costos y tarifas para el servicio de aseo prestado por la Sociedad Empresas de Servicios Públicos de Barbosa S.A E.S.P EMBASEO, con el fin de dar cumplimiento a la normatividad y regulación vigente."
+    },
+    {
+      "tipo": "ESP",
+      "empresa": "Enviaseo E.S.P.",
+      "fecha_inicio": "",
+      "fecha_finalizacion": "2019",
+      "descripcion": "Servicios profesionales para el cálculo y análisis de las devoluciones por cobros no autorizados por Enviaseo E.S.P a los usuarios. Asesopria Jurídica para estableces la metodologia mas viable de realizar dichas devoluciones."
+    },
+    {
+      "tipo": "ESP",
+      "empresa": "International Finance Corporation (World Bank Group)",
+      "fecha_inicio": "",
+      "fecha_finalizacion": "2020",
+      "descripcion": "Pre-Feasibility Study of Waste Management Treatment and Valorization Technologies for Medellin City."
     }
   ],
   "Cundinamarca": [
@@ -312,38 +482,10 @@
     },
     {
       "tipo": "ESP",
-      "empresa": "Ecoprocesos Habitat Limpio S. En C.A. E.S.P.",
-      "fecha_inicio": "1/01/2011",
-      "fecha_finalizacion": "31/12/2011",
-      "descripcion": "Prestación del servicio de auditoría externa de Gestión y Resultados, de conformidad con lo establecido en el artículo 51 de la ley 142 de 1994."
-    },
-    {
-      "tipo": "ESP",
-      "empresa": "Ecoprocesos Habitat Limpio S. En C.A. E.S.P.",
-      "fecha_inicio": "1/01/2009",
-      "fecha_finalizacion": "31/12/2009",
-      "descripcion": "Prestación del servicio de auditoría externa de Gestión y Resultados, de conformidad con lo establecido en el artículo 51 de la ley 142 de 1994."
-    },
-    {
-      "tipo": "ESP",
-      "empresa": "Ecoprocesos Habitat Limpio S. En C.A. E.S.P.",
-      "fecha_inicio": "1/01/2008",
-      "fecha_finalizacion": "31/12/2008",
-      "descripcion": "Prestación del servicio de auditoría externa de Gestión y Resultados, de conformidad con lo establecido en el artículo 51 de la ley 142 de 1994."
-    },
-    {
-      "tipo": "ESP",
-      "empresa": "Ecoprocesos Habitat Limpio S. En C.A. E.S.P.",
-      "fecha_inicio": "1/01/2007",
-      "fecha_finalizacion": "1/01/2007",
-      "descripcion": "Prestación del servicio de auditoría externa de Gestión y Resultados, de conformidad con lo establecido en el artículo 51 de la ley 142 de 1994."
-    },
-    {
-      "tipo": "ESP",
-      "empresa": "Ecoprocesos Habitat Limpio S. En C.A. E.S.P.",
-      "fecha_inicio": "1/10/2006",
-      "fecha_finalizacion": "31/12/2006",
-      "descripcion": "Prestación del servicio de auditoría externa de Gestión y Resultados, de conformidad con lo establecido en el artículo 51 de la ley 142 de 1994."
+      "empresa": "Ecoprocesos Hábitat Limpio S. En C.A. E.S.P.",
+      "fecha_inicio": "2006",
+      "fecha_finalizacion": "2023",
+      "descripcion": "Realizar la auditoria externa de gestión y resultados de conformidad con la ley 142 de 1994, las normas que la modifiquen, sustituyan o complementen, así como las resoluciones o circulares expedidas por los organismos competentes, para el servicio publico de aseo en el municipio de Mosquera, Cundinamarca."
     },
     {
       "tipo": "ESP",
@@ -361,31 +503,57 @@
     },
     {
       "tipo": "ESP",
-      "empresa": "LIME S.A. E.S.P",
-      "fecha_inicio": "15/02/2016",
-      "fecha_finalizacion": "15/05/2016",
-      "descripcion": "Realizar la auditoría externa de gestión y resultados de conformidad con la ley 142 de 1994, las normas que la modifiquen, sustituyan o complementen, así como las resoluciones o circulares expedidas por los organismos de competencia."
-    },
-    {
-      "tipo": "ESP",
-      "empresa": "LIME S.A. E.S.P",
-      "fecha_inicio": "10/02/2015",
-      "fecha_finalizacion": "10/05/2015",
-      "descripcion": "Realizar la auditoría externa de gestión y resultados de conformidad con la ley 142 de 1994, las normas que la modifiquen, sustituyan o complementen, así como las resoluciones o circulares expedidas por los organismos de competencia."
-    },
-    {
-      "tipo": "ESP",
-      "empresa": "LIME S.A. E.S.P",
-      "fecha_inicio": "10/02/2015",
-      "fecha_finalizacion": "10/05/2015",
-      "descripcion": "Realizar la auditoría externa de gestión y resultados de conformidad con la ley 142 de 1994, las normas que la modifiquen, sustituyan o complementen, así como las resoluciones o circulares expedidas por los organismos de competencia."
-    },
-    {
-      "tipo": "ESP",
       "empresa": "Espucal Empresa De Servicios Públicos De La Calera",
       "fecha_inicio": "6/06/2017",
       "fecha_finalizacion": "6/09/2017",
       "descripcion": "Contratar los servicios de elaboración técnica del catastro de usuarios de acueducto, alcantarillado y aseo de la empresa de servicios públicos de La Calera Espucal E.S.P para la vigencia 2017"
+    },
+    {
+      "tipo": "ESP",
+      "empresa": "Emprese de Servicios Públicos de Sopó- EMSERSOPO",
+      "fecha_inicio": "2009",
+      "fecha_finalizacion": "2011",
+      "descripcion": "Asesoria para el seguimiento, control tarifario, reporte SUI y capacitacion en aspectos regulatorios para los servicios de acueducto, alcantarillado y  de aseo prestados por la Empresa de Servicios Públicos  de Sopó."
+    },
+    {
+      "tipo": "ESP",
+      "empresa": "Emprese de Servicios Públicos de Sopó- EMSERSOPO",
+      "fecha_inicio": "2009",
+      "fecha_finalizacion": "2011",
+      "descripcion": "Consultoría para el Diagnóstico, planteamiento de alternativas y estructuración técnica, legal y financiera para el mejoramiento d ela prestación del servicio de aseo, en el Municipio de Sopó, en cumplimiento al Plan de Desarrollo 'Sopó es Nuestro Tiempo 2020 -2023'."
+    },
+    {
+      "tipo": "ESP",
+      "empresa": "Empresa de servicios públicos de Fusagasugá, Emserfusa E.S.P. ",
+      "fecha_inicio": "",
+      "fecha_finalizacion": "2006",
+      "descripcion": "Realizar los estudios de costos y tarifas para los servicios de acueducto, alcantarillado y aseo de conformidad con las resoluciones 287 de 2004,351 y 352 de 2005 de la Comisión de Regulación de Agua Potable y Saneamiento Básico CRA."
+    },
+    {
+      "tipo": "ESP",
+      "empresa": "HYDROS CHÍA S. EN C.A. E.S.P.",
+      "fecha_inicio": "",
+      "fecha_finalizacion": "2008",
+      "descripcion": "Asesoria en servicios públicos domiciliarios en el control tarifario, reporte de informacion SUI, viabilidad empresarial y financiera de los servicios de acueducto y alcantarillado."
+    },
+    {
+      "tipo": "ESP",
+      "empresa": "HYDROS MOSQUERA S. EN C.A. ESP",
+      "fecha_inicio": "",
+      "fecha_finalizacion": "",
+      "descripcion": "Asesoria en servicios públicos domiciliarios en el control tarifario, reporte de información SUI, viabilidad empresarial y financiera de los servicios de acueducto y alcantarillado."
+    },
+    {
+      "tipo": "ESP",
+      "empresa": "CorpoGuavio",
+      "fecha_inicio": "",
+      "fecha_finalizacion": "2009",
+      "descripcion": "Fortalecimiento institucional para la prestacion del servicios de aseo regional en los municipios de Guasca, Gachala, Uvala , Junin, Gacheta y Gama , departamento de Cundinamarca."
+    },
+    {
+      "tipo": "Catastro de Usuarios",
+      "empresa": "Catastro de Suscriptores Departamento de Cundinamarca",
+      "suscriptores": "6.356"
     }
   ],
   "Cordoba": [
@@ -395,9 +563,23 @@
       "fecha_inicio": "29/10/2012",
       "fecha_finalizacion": "29/12/2012",
       "descripcion": "Elaboración de estudios de costos y tarifas, para la prestación del servicio de aseo a la Empresa SEACOR S.A. E.S.P., en los Municipios de Ayapel, Buenavista, La Apartada, Montelibano, Planeta Rica, Puerto Libertador y Pueblo Nuevo en el Departamento de Cordoba."
+    },
+    {
+      "tipo": "ESP",
+      "empresa": "Serviaseo S.A. E.S.P",
+      "fecha_inicio": "2009",
+      "fecha_finalizacion": "2010",
+      "descripcion": "Prestación del servicio de auditoría externa de Gestión y Resultados, de conformidad con lo establecido en el artículo 51 de la ley 142 de 1994. Municipio de Chinú (Cordoba)."
     }
   ],
   "Guajira": [
+    {
+      "tipo": "ESP",
+      "empresa": "ASAA S.A. E.S.P. Avanzadas Soluciones de Acueducto y Alcantarillado",
+      "fecha_inicio": "",
+      "fecha_finalizacion": "2013",
+      "descripcion": "Realizar la auditoria de gestion y resultados, de conformidad con la ley 142 de 1994, las normas que la modifiquen, sustituyan o complementen, asi como las resoluciones circulares expedidas por los organismos competentes y las estipulaciones que rigen la operacion, rehabilitacion y mantenimiento de la infraestructura de los servicios publicos de acueducto y alcantarillado, entre el municipio de Riohacha y la Empresa Avanzadas Soluciones de Acueducto y Alcantarillado S.A E.S.P."
+    },
     {
       "tipo": "ESP",
       "empresa": "Alcaldia de Manaure",
@@ -407,17 +589,24 @@
     },
     {
       "tipo": "ESP",
-      "empresa": "ASAA S.A. E.S.P. Avanzadas Soluciones de Acueducto y Alcantarillado",
-      "fecha_inicio": "1/01/2013",
-      "fecha_finalizacion": "31/12/2013",
-      "descripcion": "Realizar la Auditoria Externa de Gestion y Resultados, de conformidad con la ley 142 de 1994, las normas que la modifiquen, sustituyan o complementen, asi como las resoluciones o circulares expedidas por los organismos competentes y las estipulaciones que rigen la operacion, rehabilitacion y mantenimiento de la infraestructura de los servicios publicos de acueducto y alcantarillado, entre el municipio de Riohacha y la sociedad Aguas de la Guajira S.A. E.S.P."
+      "empresa": "Aguas del Guajira S.A E.S.P",
+      "fecha_inicio": "2006",
+      "fecha_finalizacion": "2012",
+      "descripcion": "Realizar la Auditoría Externa de Gestión y Resultados, de conformidad con la ley 142 de 1994, las normas que la modifiquen, sustituyan o complementen, así como las resoluciones o circulares expedidas por los organismos competentes y las estipulaciones que rigen la operación, rehabilitación y mantenimiento de la infraestructura de los servicios públicos de acueducto y alcantarillado, entre el municipio de Riohacha y la sociedad Aguas de la Guajira S.A. E.S.P."
     },
     {
       "tipo": "ESP",
-      "empresa": "ASAA S.A. E.S.P. Avanzadas Soluciones de Acueducto y Alcantarillado",
-      "fecha_inicio": "1/01/2012",
-      "fecha_finalizacion": "31/12/2013",
-      "descripcion": "Realizar la auditoria de gestion y resultados, de conformidad con la ley 142 de 1994, las normas que la modifiquen, sustituyan o complementen, asi como las resoluciones circulares expedidas por los organismos competentes y las estipulaciones que rigen la operacion, rehabilitacion y mantenimiento de la infraestructura de los servicios publicos de acueducto y alcantarillado, entre el municipio de Riohacha y la Empresa Avanzadas Soluciones de Acueducto y Alcantarillado S.A E.S.P."
+      "empresa": "Corporación Andina de Fomento - CAF",
+      "fecha_inicio": "",
+      "fecha_finalizacion": "2021",
+      "descripcion": "Estructurar a nivel de factibilidad la optimización de la prestación del servicio público de aseo, en los municipios de la Subregión Baja Guajira."
+    },
+    {
+      "tipo": "ESP",
+      "empresa": "Operamos 2000",
+      "fecha_inicio": "",
+      "fecha_finalizacion": "2008",
+      "descripcion": "Estudio de Costos y Taridas  para los servicios de acueducto y aseo para la empresa Aguas de La Guajira S.A.E.S.P; de conformidad con las metodologias establecidas en las resoluciones CRA 2857 de 2004 , 351 y 352 de 2005"
     }
   ],
   "Huila": [
@@ -434,6 +623,13 @@
       "fecha_inicio": "18/03/2016",
       "fecha_finalizacion": "8/11/2016",
       "descripcion": "Prestar el servicio de apoyo en la asesoria y elaboracion de los estudios tecnicos de costos y tarifas para los servicios de acueducto y alcantarillado prestado por la empresa Empitalito ESP"
+    },
+    {
+      "tipo": "ESP",
+      "empresa": "Empresas Públicas de Neiva E.S.P. ",
+      "fecha_inicio": "",
+      "fecha_finalizacion": "2006",
+      "descripcion": "Estudio de costos y tarifas de los servicios públicos domiciliarios de acueducto, alcantarillado y aseo de la empresa, de conformidad con las resoluciones 287 de 2004, 351 y 352 de 2005 de la comisión de regulación de agua potable-CRA, y el acompañamiento ante la Comisión de Regulación para su concepto correspondiente que el estudio de costos y tarifas cumplió con la metodología según la reglamentación impuesta por la CRA"
     }
   ],
   "Casanare": [
@@ -443,6 +639,13 @@
       "fecha_inicio": "4/02/2015",
       "fecha_finalizacion": "4/06/2015",
       "descripcion": "Consultoria para realizar los estudios de Costos y Tarifas para los servicios de acueducto, alcantarillado y aseo, y el catastro de suscriptores para la empresa EMSET S.A. E.S.P. en el municipio de Tauramena – Casanare."
+    },
+    {
+      "tipo": "ESP",
+      "empresa": "Empresa de acueducto y alcantarillado de Yopal E.S.P ",
+      "fecha_inicio": "",
+      "fecha_finalizacion": "2008",
+      "descripcion": "Interventoría técnica administrativa financiera y ambiental al contrato 022 de 2003, cuyo objeto es la prestación del servicio público domiciliario de aseo en el Municipio de Yopal."
     }
   ],
   "Santander": [
@@ -459,6 +662,169 @@
       "fecha_inicio": "6/05/2015",
       "fecha_finalizacion": "6/09/2016",
       "descripcion": "Elaborar el estudio tarifario de costos y tarifas con base en la aplicacion de la metodologia tarifaria definitiva en la resolucion CRA 688 de 2014 y realizar el estudio de viabilidad financiera de la prestacion de los servicios de acueducto y alcantarillado."
+    },
+    {
+      "tipo": "ESP",
+      "empresa": "Aguas de Barrancabermeja S.A E.S.P",
+      "fecha_inicio": "",
+      "fecha_finalizacion": "2011",
+      "descripcion": "Evaluación, actualización y determinación de la valoración de los activo de Aguas de Barrancabermeja S.A E.S.P."
+    }
+  ],
+  "Boyaca": [
+    {
+      "tipo": "ESP",
+      "empresa": "Empresa Departamental de Servicios públicos de Boyacá SA ESP",
+      "fecha_inicio": "",
+      "fecha_finalizacion": "2011",
+      "descripcion": "Formulación y elaboración de os planes maestros de acueducto y alcantarillado Grupo H."
+    },
+    {
+      "tipo": "ESP",
+      "empresa": "Empoduitama S.A. E.S.P",
+      "fecha_inicio": "",
+      "fecha_finalizacion": "2009",
+      "descripcion": "Asesoría integral especializada para el control tarifario,  reporte de información al SUI para los servicios de acueducto, alcantarillado y aseo y capacitación en la normatividad, reporte de información al SUI y regulación tarifaria de los servicios públicos domiciliarios."
+    },
+    {
+      "tipo": "ESP",
+      "empresa": "Corporación Autonoma Regional de la Orinoquia - Corporinoquia",
+      "fecha_inicio": "",
+      "fecha_finalizacion": "2009",
+      "descripcion": "Realización de los estudios y diseños del proyecto regional para el manejo integral y disposición final de residuos sólidos d elos municipios de Saravena, Fortul, Arauquita en el Departamento de Arauca y Cubara en el Departamento de Boyacá."
+    }
+  ],
+  "Bogota": [
+    {
+      "tipo": "ESP",
+      "empresa": "Bogotá Limpia S.A E.S.P",
+      "fecha_inicio": "2019",
+      "fecha_finalizacion": "2023",
+      "descripcion": "Auditoría Externa de Gestión y Resultados para la empresa Bogotá Limpia S.A. E.S.P."
+    },
+    {
+      "tipo": "ESP",
+      "empresa": "Limpieza Metropolitana S.A. E.S.P",
+      "fecha_inicio": "2005",
+      "fecha_finalizacion": "2018",
+      "descripcion": "La prestación del servicio de auditoría externa de Gestión y Resultados  del periodo 2016, por parte del auditor a la empresa Limpieza Metropolitana S.A E.S.P., de conformidad con lo establecido en el artículo 1 y 51 de la ley 142 de 1994, para el servicio público de aseo en la ciudad de Bogotá, Distrito Capital."
+    },
+    {
+      "tipo": "ESP",
+      "empresa": "Secretaría del Habitat",
+      "fecha_inicio": "",
+      "fecha_finalizacion": "2017",
+      "descripcion": "Consultoría para la elaboración de planes de accion que permitan fortalecer tecnica y organizacionalmente, los sistemas de abastecimiento de agua potable y alcantarillado, que atiendan a menos de 5000 suscriptores en la ciudad de Bogotá D.C, con base en un diagnostico integral desarrollado para cada uno de estos."
+    },
+    {
+      "tipo": "ESP",
+      "empresa": "Secretaría del Habitat",
+      "fecha_inicio": "",
+      "fecha_finalizacion": "2015",
+      "descripcion": "Elaborar estudios tarifarios bajo el marco regulatorio vigente para acueductos y alcantarillados ."
+    },
+    {
+      "tipo": "ESP",
+      "empresa": "Unidad Administrativa Especial de Servicios Públicos - UAESP",
+      "fecha_inicio": "",
+      "fecha_finalizacion": "2013",
+      "descripcion": "Prestacion de servicios especializados para el seguimiento y control tarifario en la prestacion del servicio de aseo en Bogotá D.C."
+    },
+    {
+      "tipo": "ESP",
+      "empresa": "Unidad Administrativa Especial de Servicios Públicos - UAESP",
+      "fecha_inicio": "2011",
+      "fecha_finalizacion": "2013",
+      "descripcion": "Asesoria para el seguimiento y control tarifario en la prestación de servicio de aseo en Bogota D.C."
+    },
+    {
+      "tipo": "ESP",
+      "empresa": "Superintendencia de Servicios públicos Domiciliarios - SSPD",
+      "fecha_inicio": "",
+      "fecha_finalizacion": "2013",
+      "descripcion": "Prestar sus servicios a la superintendencia de servicios públicos en la verificación del cumplimiento a lo dispuesto por la comisión de regulación de agua potable y saneamiento básico en relación a la devoluvión de cobros no autorizados realizados por 18 prestadores de los servicios públicos de acueducto, alcantarillado y aseo en 23 áreas de prestación identificados previamente en el marco de vigilancia y control."
+    },
+    {
+      "tipo": "ESP",
+      "empresa": "Comisión de Regulación de Agua Potable y Saneamiento Básico. CRA",
+      "fecha_inicio": "",
+      "fecha_finalizacion": "2009",
+      "descripcion": "Prestar sus servicios de consultoría para desarrollar una prueba piloto de la implementación  de las resoluciones CRA 442 y 443 DE 2008, en el marco de la Metodología Tarifaria del Servicio Público de Aseo definida por las resoluciones CRA 351 y 352 de 2005, que permita establecer su impacto económico."
+    },
+    {
+      "tipo": "ESP",
+      "empresa": "Sociedad Centro de Gerenciamiento de Residuos Doña Juana S.A E.S.P-CGR Doña Juana S.A E.S.P  ",
+      "fecha_inicio": "2010",
+      "fecha_finalizacion": "2014",
+      "descripcion": "Auditoría Externa de Gestión y Resultados Ltda., para el Servicio de Aseo en la  Actividad Complementaria de Administración, Operación y Mantenimiento Integral del Relleno Sanitario Doña Juana, en su componente de Disposición Final de  Residuos Sólidos provenientes del Servicio Ordinario de Aseo."
+    }
+  ],
+  "Arauca": [
+    {
+      "tipo": "ESP",
+      "empresa": "Corporación Autonoma Regional de la Orinoquia - Corporinoquia",
+      "fecha_inicio": "",
+      "fecha_finalizacion": "2009",
+      "descripcion": "Realización de los estudios y diseños del proyecto regional para el manejo integral y disposición final de residuos sólidos d elos municipios de Saravena, Fortul, Arauquita en el Departamento de Arauca y Cubara en el Departamento de Boyacá."
+    }
+  ],
+  "Risaralda": [
+    {
+      "tipo": "ESP",
+      "empresa": "EMPRESA DE SERVICIOS PÚBLICOS DE LA VIRGINIA E.S.P.",
+      "fecha_inicio": "",
+      "fecha_finalizacion": "2009",
+      "descripcion": "Consultoría para el diagnóstico, modelación y estructuración de un modelo técnico-económico y financiero de la prestación del servicio público de aseo que actualmente presta la ESP La Virginia."
+    }
+  ],
+  "Quindio": [
+    {
+      "tipo": "ESP",
+      "empresa": "EPA- Empresas Públicas de Armenia ESP.",
+      "fecha_inicio": "",
+      "fecha_finalizacion": "2009",
+      "descripcion": "Asesoria y acompañamiento a EPA - ESO en el desarrollo e implementacion de la mejor alternativa de asociacion para la prestacion del servicio publico de aseo en el municipio de Armenia. ."
+    }
+  ],
+  "Putumayo": [
+    {
+      "tipo": "ESP",
+      "empresa": "GIP MOCOA - BID.",
+      "fecha_inicio": "",
+      "fecha_finalizacion": "2021",
+      "descripcion": "Estudio sobre esquemas de prestación y Plan de Aseguramiento de los servicios de acueducto y alcantarillado en el municipio de Mocoa, departamento del Putumayo."
+    },
+    {
+      "tipo": "ESP",
+      "empresa": "Ministerio de Ambiente Vivienda y Desarrollo Territorial.",
+      "fecha_inicio": "",
+      "fecha_finalizacion": "2009",
+      "descripcion": "Apoyar institucionalemnte a la gobernacion del Putumayo a los municipio y al ministerio en la coordinacion , formulacion y estructuracion del plan departamental de agua y sanemiento en el departamento de Putumayo."
+    }
+  ],
+  "Tolima": [
+    {
+      "tipo": "ESP",
+      "empresa": "HYDROS MELGAR S. EN C.A. E.S.P.",
+      "fecha_inicio": "",
+      "fecha_finalizacion": "2008",
+      "descripcion": "Asesoria en servicios públicos domiciliarios en el control tarifario, reporte de informacion SUI, viabilidad empresarial y financiera de los servicios de acueducto y alcantarillado para la empresa HYDROS CHIA S. EN C.A. ESP."
+    }
+  ],
+  "Caqueta": [
+    {
+      "tipo": "ESP",
+      "empresa": "Ministerio de Ambiente Vivienda y Desarrollo Territorial.",
+      "fecha_inicio": "",
+      "fecha_finalizacion": "2008",
+      "descripcion": "Apoyar institucionalemnte a la gobernacion del Caquetá a los municipio y al ministerio en la coordinacion , formulacion y estructuracion del plan departamental de agua y sanemiento en el departamento de Caquetá."
+    },
+    {
+      "tipo": "ESP",
+      "empresa": "Servintegral S.A. E.S.P.",
+      "fecha_inicio": "",
+      "fecha_finalizacion": "2008",
+      "descripcion": "Consultoria en Servicios Públicos Domiciliciarios para la vinculación y estructuración del servicio de aseo en el Departamento del Caquetá."
     }
   ]
 }

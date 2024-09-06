@@ -36,9 +36,6 @@ export const Experience = () => {
             <section className="experience__section">
                 <Map />
             </section>
-            <section className="experience__section">
-                <International />
-            </section>
         </main>
     )
 }
