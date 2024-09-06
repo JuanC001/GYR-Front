@@ -1,3 +1,55 @@
 .international__projects {
     min-height: 50vh;
 }
+
+.international__projects h2{
+    color: var(--color-primary);
+    margin: 50px;
+    padding: 1rem;
+}
+
+.international__content {
+    background-color: var(--color-secondary-dark);
+    min-height: 30vh;
+    border-radius: 10px;
+    color: white;
+    padding: 2rem;
+}
+
+.international__title {
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 1rem;
+    color: white;
+}
+
+.international__card {
+    color: black;
+}
+
+.international__card__content {
+    border-radius: 10px;
+    background-color: white;
+    padding: 1rem;
+    color: black;
+    margin-bottom: 10px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.international__card__description{
+    text-transform: lowercase;
+}
+
+.international__card__content h4 {
+    color: var(--color-primary);
+}
+
+.international__card__year{
+    font-size: 1rem;
+    color: var(--color-secondary-dark);
+}

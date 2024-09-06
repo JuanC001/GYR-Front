@@ -826,5 +826,21 @@
       "fecha_finalizacion": "2008",
       "descripcion": "Consultoria en Servicios Públicos Domiciliciarios para la vinculación y estructuración del servicio de aseo en el Departamento del Caquetá."
     }
+  ],
+  "SanAndres": [
+    {
+      "tipo": "ESP",
+      "empresa": "FINDETER",
+      "fecha_inicio": "",
+      "fecha_finalizacion": "2017",
+      "descripcion": "Interventoría técnica, administrativa, financiera, contable, ambiental, social y jurídica para la 'Consultoría especializada para evaluar, formular y apoyar la implementación de procesos de reorganización de la prestación de los servicios públicos de acueducto y alcantarillado en el distrito de Buenaventura- Departamento Valle del Cauca y consultoría especializada para establecer la viabilidad, las condiciones, los términos de las modificaciones y/o los ajustes al contrato de operación suscrito entre Aguas de San Andrés S.A E.S.P y Proactiva Aguas del Archipiélago S.A E.S.P cuyo objeto es'La operación de la infraestructura destinada a la prestación de servicios de acueductos y alcantarillado en la Isla de San Andrés"
+    },
+    {
+      "tipo": "ESP",
+      "empresa": "FINDETER",
+      "fecha_inicio": "",
+      "fecha_finalizacion": "2017",
+      "descripcion": "Interventoría técnica, administrativa, financiera, contable, ambiental, social y jurídica para la 'Consultoría especializada para evaluar, formular y apoyar la implementación de procesos de reorganización de la prestación de los servicios públicos de acueducto y alcantarillado en el distrito de Buenaventura- Departamento Valle del Cauca y consultoría especializada para establecer la viabilidad, las condiciones, los términos de las modificaciones y/o los ajustes al contrato de operación suscrito entre Aguas de San Andrés S.A E.S.P y Proactiva Aguas del Archipiélago S.A E.S.P cuyo objeto es'La operación de la infraestructura destinada a la prestación de servicios de acueductos y alcantarillado en la Isla de San Andrés"
+    }
   ]
 }
