@@ -1,6 +1,6 @@
 .experience__container {
     min-height: 50vh;
-    width: 100%;
+    width: 100vw;
     max-width: 2500px;
     overflow-x: hidden;
     margin-bottom: 10%;
@@ -65,6 +65,11 @@
     display: grid;
     width: 80%;    
     margin: auto;
+}
+
+.argentina__map__container{
+    width: 100%;
+    height: 100%;
 }
 
 @media (width < 600px) {

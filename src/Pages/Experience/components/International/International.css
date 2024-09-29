@@ -1,55 +1,68 @@
 .international__projects {
-    min-height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+
 }
 
-.international__projects h2{
+.international__projects h2 {
+    font-size: 2rem;
     color: var(--color-primary);
-    margin: 50px;
-    padding: 1rem;
-}
-
-.international__content {
-    background-color: var(--color-secondary-dark);
-    min-height: 30vh;
-    border-radius: 10px;
-    color: white;
-    padding: 2rem;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin: auto;
 }
 
 .international__title {
     font-size: 1.5rem;
-    margin: 0;
-    padding: 1rem;
     color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin: auto;
+}
+
+.international__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    background-color: var(--color-secondary);
+    border-radius: 20px;
+    padding: 20px;
 }
 
 .international__card {
-    color: black;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-height: 90%;
+    overflow-y: scroll;
 }
 
 .international__card__content {
-    border-radius: 10px;
-    background-color: white;
-    padding: 1rem;
-    color: black;
-    margin-bottom: 10px;
-    
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 1.2rem;
 }
 
-.international__card__description{
-    text-transform: lowercase;
-}
-
-.international__card__content h4 {
-    color: var(--color-primary);
+.international__card__description {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 1rem;
 }
 
 .international__card__year{
-    font-size: 1rem;
-    color: var(--color-secondary-dark);
+    font-weight: bold;
 }

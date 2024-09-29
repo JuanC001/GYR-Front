@@ -4,7 +4,7 @@ import { proyectosARG } from './ArgentinaJSON.js'
 
 export const Argentina = () => {
     return (
-        <div className='map_container'>
+        <div className='argentina__container'>
             <div className='international__content'>
                 <h3 className='international__title'>Proyectos en Argentina</h3>
                 <div className='international__card'>
@@ -19,8 +19,9 @@ export const Argentina = () => {
                     })}
                 </div>
             </div>
-            <InteractiveArgentinaMap />
-
+            <div className="argentina__map__container">
+                <InteractiveArgentinaMap />
+            </div>
         </div>
     )
 }
