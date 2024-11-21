@@ -91,7 +91,7 @@ export const Contact = () => {
               <br />
               info@gestionyresultados.com
               <br />
-              info@gestionyresultados.com
+              nuevosnegocios@gestionyresultados.com
               <br />
               Calle 122 #52 - 49 Bogotá, Colombia
             </p>
